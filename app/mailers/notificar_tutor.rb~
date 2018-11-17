@@ -1,0 +1,13 @@
+class NotificarTutor < ActionMailer::Base
+  default from: "from@example.com"
+
+  def email(usuario, password)
+    
+    @usuario = usuario
+    @password = password
+
+    mail(to: @usuario.email, subject: "Nuevo Usuario RUE")
+
+  end
+
+end

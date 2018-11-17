@@ -1,0 +1,1805 @@
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/wolverine_base/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/wolverine_base/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-15 21:19:00 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (91.2ms)
+  Rendered layouts/_menu.html.erb (188.3ms)
+  Rendered layouts/_header.html.erb (191.8ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1344ms (Views: 1209.4ms | ActiveRecord: 133.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:02 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/fonts/64dae9bb.OpenSans-Regular-webfont.woff" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/thumbnails/wolverine3.jpg" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/thumbnails/wolverine2.jpg" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/fonts/92e68ff4.fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/fonts/ed35e252.DaxlinePro-Medium.otf" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:19:03 -0300
+
+
+Started GET "/login" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (33.6ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (35.7ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (39.0ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (215.9ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 514ms (Views: 395.9ms | ActiveRecord: 117.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:04 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:05 -0300
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2018-11-15 21:19:07 -0300
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xDYcHuC3k9CpNuZrD5/PkG5xwSLg5wXAMquk70XSmYA=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[35mPersona Load (103.7ms)[0m  SELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')
+  [1m[36mTipoDocumento Load (0.5ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mNacionalidad Load (0.4ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUsuario Load (39.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (40.1ms)[0m  BEGIN
+  [1m[36mSQL (3.1ms)[0m  [1mUPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936[0m  [["current_login_at", "2018-11-16 00:19:08.055467"], ["last_login_at", "2018-11-15 12:53:02.511799"], ["last_request_at", "2018-11-16 00:19:08.055854"], ["login_count", 146], ["perishable_token", "C77JK8DTqSRpEgkB49aP"], ["updated_at", "2018-11-16 00:19:08.098555"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUsuario Load (40.2ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:08.155649"], ["perishable_token", "xpqY3iE8oFw1SejjytG"], ["updated_at", "2018-11-16 00:19:08.156844"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mPerfil Load (3.7ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43186]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 429ms (ActiveRecord: 257.9ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (25.5ms)
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:08.554522"], ["perishable_token", "Xis2Shvnf37BEAu4bWs5"], ["updated_at", "2018-11-16 00:19:08.555185"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (74.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (4.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.6ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.5ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43186]]
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPerfil Load (1.8ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (122.4ms)
+  Rendered layouts/_header.html.erb (123.6ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 458ms (Views: 357.1ms | ActiveRecord: 100.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:19:08 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:19:09 -0300
+
+
+Started GET "/personas/index" for 127.0.0.1 at 2018-11-15 21:19:10 -0300
+Processing by PersonasController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:10.679385"], ["perishable_token", "90L4ejiTTP3wQbMMO1uY"], ["updated_at", "2018-11-16 00:19:10.680197"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36mVAcceso Load (3.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'personas' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_autocomplete.html.erb (1.0ms)
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  [1m[35mGenero Load (47.8ms)[0m  SELECT "generos".* FROM "generos"   ORDER BY descripcion
+  Rendered helpers/_modal_window.html.erb (0.5ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered personas/index.html.erb within layouts/application (152.9ms)
+  [1m[36mVAcceso Load (2.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.3ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.7ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.3ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43186]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPerfil Load (0.5ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (32.0ms)
+  Rendered layouts/_header.html.erb (32.8ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 512ms (Views: 429.0ms | ActiveRecord: 75.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/sweetalert.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/sweetalert.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started GET "/assets/ajax-loader0.gif" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+
+
+Started POST "/personas/lista" for 127.0.0.1 at 2018-11-15 21:19:11 -0300
+Processing by PersonasController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_personas_id"=>"", "form_buscar_personas_nacionalidad"=>"", "form_buscar_personas_nacionalidad_id"=>"", "form_buscar_personas_tipo_documento"=>"", "form_buscar_personas_tipo_documento_id"=>"", "form_buscar_personas_documento_persona"=>"", "form_buscar_personas_nombre_persona"=>"", "form_buscar_personas_apellido_persona"=>"", "form_buscar_personas_fecha_nacimiento"=>"", "form_buscar_personas"=>{"genero_id"=>""}, "form_buscar_personas_libro"=>"", "form_buscar_personas_folio"=>"", "form_buscar_personas_acta"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.5ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:11.626188"], ["perishable_token", "X8qAu6rhEF1boWX6OjW"], ["updated_at", "2018-11-16 00:19:11.628139"]]
+  [1m[36m (40.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'personas' and accion = 'lista' and sistema_id = 1)
+  [1m[36mPersona Load (29.9ms)[0m  [1mSELECT  "personas".* FROM "personas"   ORDER BY nombre_persona, apellido_persona LIMIT 10 OFFSET 0[0m
+  [1m[35mNacionalidad Load (0.4ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTipoDocumento Load (0.3ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mGenero Load (0.3ms)[0m  SELECT  "generos".* FROM "generos"  WHERE "generos"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered helpers/_modal_window.html.erb (0.8ms)
+  Rendered personas/_link_to_editar_persona.html.erb (5.1ms)
+  Rendered personas/_link_to_unificar_persona.html.erb (0.8ms)
+  Rendered personas/_lista.html.erb (49.9ms)
+  Rendered personas/_footer.html.erb (0.7ms)
+  Rendered personas/lista.js.erb (55.5ms)
+Completed 200 OK in 115ms (Views: 28.9ms | ActiveRecord: 75.4ms)
+
+
+Started GET "/usuarios/index" for 127.0.0.1 at 2018-11-15 21:19:14 -0300
+Processing by UsuariosController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:14.955213"], ["perishable_token", "6IMGKUOBxpiIJV5PhYUW"], ["updated_at", "2018-11-16 00:19:14.955934"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'usuarios' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  Rendered helpers/_autocomplete.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/index.html.erb within layouts/application (16.7ms)
+  [1m[35mVAcceso Load (4.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.4ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43186]]
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mPerfil Load (0.6ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (37.7ms)
+  Rendered layouts/_header.html.erb (38.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 396ms (Views: 361.5ms | ActiveRecord: 28.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started POST "/usuarios/lista" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+Processing by UsuariosController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_usuarios_id"=>"", "form_buscar_usuarios_nacionalidad"=>"", "form_buscar_usuarios_nacionalidad_id"=>"", "form_buscar_usuarios_tipo_documento"=>"", "form_buscar_usuarios_tipo_documento_id"=>"", "form_buscar_usuarios_documento_persona"=>"", "form_buscar_usuarios_nombre_persona"=>"", "form_buscar_usuarios_apellido_persona"=>"", "form_buscar_usuarios_email"=>"", "form_buscar_usuarios"=>{"active"=>""}}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (3.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:15.691697"], ["perishable_token", "yRq5fygnn5mNpzycw7q"], ["updated_at", "2018-11-16 00:19:15.692604"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (8.6ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'usuarios' and accion = 'lista' and sistema_id = 1)[0m
+  [1m[35m (70.4ms)[0m  SELECT COUNT(*) FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"[0m
+  [1m[35mUsuario Load (0.9ms)[0m  SELECT  "usuarios".* FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"  ORDER BY id LIMIT 10 OFFSET 0
+  [1m[36mPersona Load (0.4ms)[0m  [1mSELECT  "personas".* FROM "personas"  WHERE "personas"."id" = $1 LIMIT 1[0m  [["id", 3469664]]
+  [1m[35mNacionalidad Load (0.3ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTipoDocumento Load (0.2ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered usuarios/_link_to_perfiles.html.erb (1.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/_link_to_reset_password.html.erb (3.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/_link_to_editar_usuario.html.erb (2.0ms)
+  Rendered usuarios/_lista.html.erb (20.1ms)
+  Rendered usuarios/_footer.html.erb (0.5ms)
+  Rendered usuarios/lista.js.erb (25.6ms)
+Completed 200 OK in 128ms (Views: 27.3ms | ActiveRecord: 85.3ms)
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:15 -0300
+
+
+Started GET "/disciplinas/index" for 127.0.0.1 at 2018-11-15 21:19:16 -0300
+Processing by DisciplinasController#index as HTML
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:16.961206"], ["perishable_token", "J8xV9aOqoZNmAXKhwK"], ["updated_at", "2018-11-16 00:19:16.961907"]]
+  [1m[36m (40.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (4.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'disciplinas' and accion = 'index' and sistema_id = 1)
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered disciplinas/index.html.erb within layouts/application (5.5ms)
+  [1m[36mVAcceso Load (3.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.5ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43186]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mPerfil Load (1.7ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43186 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (38.8ms)
+  Rendered layouts/_header.html.erb (39.6ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 411ms (Views: 334.4ms | ActiveRecord: 70.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started POST "/disciplinas/lista" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+Processing by DisciplinasController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_disciplinas_id"=>"", "form_buscar_disciplinas_descripcion"=>"", "form_buscar_disciplinas_descripcion_guarani"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:17.726267"], ["perishable_token", "Wvldb3mowBR3juerjrfc"], ["updated_at", "2018-11-16 00:19:17.728408"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (4.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'disciplinas' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (2.2ms)[0m  [1mSELECT COUNT(*) FROM "disciplinas"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "disciplinas"
+  [1m[36mDisciplina Load (33.2ms)[0m  [1mSELECT  "disciplinas".* FROM "disciplinas"   ORDER BY id LIMIT 10 OFFSET 0[0m
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered disciplinas/_link_to_editar_disciplina.html.erb (2.7ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered disciplinas/_link_to_editar_disciplina.html.erb (1.2ms)
+  Rendered disciplinas/_lista.html.erb (49.1ms)
+  Rendered disciplinas/_footer.html.erb (0.7ms)
+  Rendered disciplinas/lista.js.erb (54.1ms)
+Completed 200 OK in 135ms (Views: 24.7ms | ActiveRecord: 90.2ms)
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:17 -0300
+
+
+Started GET "/informaciones/index" for 127.0.0.1 at 2018-11-15 21:19:18 -0300
+
+ActionController::RoutingError (uninitialized constant InformacionesController):
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  remotipart (1.3.1) lib/remotipart/middleware.rb:32:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  request_store (1.1.0) lib/request_store/middleware.rb:8:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  thin (1.5.1) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.1) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.1) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.1) lib/thin/connection.rb:54:in `process'
+  thin (1.5.1) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.4) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.4) lib/eventmachine.rb:187:in `run'
+  thin (1.5.1) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.1) lib/thin/server.rb:159:in `start'
+  rack (1.5.2) lib/rack/handler/thin.rb:16:in `run'
+  rack (1.5.2) lib/rack/server.rb:264:in `start'
+  railties (4.1.0) lib/rails/commands/server.rb:69:in `start'
+  railties (4.1.0) lib/rails/commands/commands_tasks.rb:81:in `block in server'
+  railties (4.1.0) lib/rails/commands/commands_tasks.rb:76:in `tap'
+  railties (4.1.0) lib/rails/commands/commands_tasks.rb:76:in `server'
+  railties (4.1.0) lib/rails/commands/commands_tasks.rb:40:in `run_command!'
+  railties (4.1.0) lib/rails/commands.rb:17:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+  Rendered /Users/marcosriveros/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/marcosriveros/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (124.6ms)
+  Rendered /Users/marcosriveros/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.1ms)
+  Rendered /Users/marcosriveros/.rvm/gems/ruby-2.1.1/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1684.9ms)
+
+
+Started POST "/disciplinas/lista" for 127.0.0.1 at 2018-11-15 21:19:23 -0300
+Processing by DisciplinasController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_disciplinas_id"=>"", "form_buscar_disciplinas_descripcion"=>"", "form_buscar_disciplinas_descripcion_guarani"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:23.727750"], ["perishable_token", "ZCOGE2WeOc70YhNF5Yd7"], ["updated_at", "2018-11-16 00:19:23.730163"]]
+  [1m[36m (41.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'disciplinas' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "disciplinas"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "disciplinas"
+  [1m[36mDisciplina Load (1.6ms)[0m  [1mSELECT  "disciplinas".* FROM "disciplinas"   ORDER BY id LIMIT 10 OFFSET 0[0m
+  Rendered helpers/_modal_window.html.erb (0.2ms)
+  Rendered disciplinas/_link_to_editar_disciplina.html.erb (4.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered disciplinas/_link_to_editar_disciplina.html.erb (1.4ms)
+  Rendered disciplinas/_lista.html.erb (15.0ms)
+  Rendered disciplinas/_footer.html.erb (0.2ms)
+  Rendered disciplinas/lista.js.erb (18.7ms)
+Completed 200 OK in 86ms (Views: 23.2ms | ActiveRecord: 47.8ms)
+
+
+Started GET "/usuarios/cambiar_perfil_actual?perfil_id=43185" for 127.0.0.1 at 2018-11-15 21:19:39 -0300
+Processing by UsuariosController#cambiar_perfil_actual as JS
+  Parameters: {"perfil_id"=>"43185"}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:39.739583"], ["perishable_token", "vvoAwrWfIKqqThkt66"], ["updated_at", "2018-11-16 00:19:39.740287"]]
+  [1m[36m (40.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'usuarios' and accion = 'cambiar_perfil_actual' and sistema_id = 1)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "perfil_actual_id" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["perfil_actual_id", 43185], ["perishable_token", "XHZv8XD8plxaCbq0ity4"], ["updated_at", "2018-11-16 00:19:39.788241"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  Rendered usuarios/cambiar_perfil_actual.js.erb (0.6ms)
+Completed 200 OK in 59ms (Views: 4.9ms | ActiveRecord: 46.0ms)
+
+
+Started GET "/disciplinas/index" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+Processing by DisciplinasController#index as HTML
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:41.031319"], ["perishable_token", "FRQG4OF5ZrYl3X6U6gL"], ["updated_at", "2018-11-16 00:19:41.032203"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'disciplinas' and accion = 'index' and sistema_id = 1)
+Redirected to http://localhost:3000/usuarios_sessions/acceso_denegado
+Filter chain halted as :require_usuario rendered or redirected
+Completed 302 Found in 13ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/usuarios_sessions/acceso_denegado" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+Processing by UsuariosSessionsController#acceso_denegado as HTML
+  Rendered usuarios_sessions/acceso_denegado.html.erb within layouts/application (0.8ms)
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:41.411279"], ["perishable_token", "Vl2aexU0bk2AX8X21p"], ["updated_at", "2018-11-16 00:19:41.411963"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (3.9ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.8ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.4ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.5ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (37.7ms)
+  Rendered layouts/_header.html.erb (38.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 388ms (Views: 364.6ms | ActiveRecord: 22.7ms)
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:41 -0300
+
+
+Started GET "/controladores/index" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+Processing by ControladoresController#index as HTML
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:43.085895"], ["perishable_token", "Xd7hpcJVZRMh4DKzyu0W"], ["updated_at", "2018-11-16 00:19:43.086979"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'index' and sistema_id = 1)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/index.html.erb within layouts/application (16.8ms)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.3ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.7ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (34.6ms)
+  Rendered layouts/_header.html.erb (36.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 397ms (Views: 362.0ms | ActiveRecord: 26.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started GET "/assets/modulos/controladores.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+
+
+Started POST "/controladores/lista" for 127.0.0.1 at 2018-11-15 21:19:43 -0300
+Processing by ControladoresController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_controladores_id"=>"", "form_buscar_controladores_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (6.2ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:43.927994"], ["perishable_token", "NwYuQiKSKxqV2aowPkEf"], ["updated_at", "2018-11-16 00:19:43.928753"]]
+  [1m[36m (40.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "controladores"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  [1m[36mControlador Load (71.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"   ORDER BY descripcion LIMIT 15 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  Rendered controladores/_link_to_acciones.html.erb (0.9ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.7ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (3.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.5ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.0ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.1ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.1ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.0ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.1ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.8ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.0ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_lista.html.erb (150.2ms)
+  Rendered controladores/_footer.html.erb (17.8ms)
+  Rendered controladores/lista.js.erb (174.9ms)
+Completed 200 OK in 287ms (Views: 107.9ms | ActiveRecord: 164.7ms)
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:44 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:44 -0300
+
+
+Started GET "/roles/index" for 127.0.0.1 at 2018-11-15 21:19:45 -0300
+Processing by RolesController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:45.587496"], ["perishable_token", "E52RKC9jWOlScdFzPNz4"], ["updated_at", "2018-11-16 00:19:45.588272"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/index.html.erb within layouts/application (17.8ms)
+  [1m[35mVAcceso Load (2.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.6ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.8ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (1.9ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.4ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (0.5ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (33.5ms)
+  Rendered layouts/_header.html.erb (34.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 388ms (Views: 356.6ms | ActiveRecord: 24.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/modulos/roles.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started POST "/roles/lista" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+Processing by RolesController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_roles_id"=>"", "form_buscar_roles_descripcion"=>"", "form_buscar_sistema_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:46.489989"], ["perishable_token", "HvfinpkbLzmpCHzFyoz"], ["updated_at", "2018-11-16 00:19:46.490707"]]
+  [1m[35m (40.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (4.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'lista' and sistema_id = 1)[0m
+  [1m[35m (1.1ms)[0m  SELECT COUNT(*) FROM "v_roles"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "v_roles"[0m
+  [1m[35mVRoles Load (34.1ms)[0m  SELECT  "v_roles".* FROM "v_roles"   ORDER BY descripcion LIMIT 15 OFFSET 0
+  Rendered roles/_link_to_accesos.html.erb (1.1ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/_link_to_editar_rol.html.erb (2.5ms)
+  Rendered roles/_link_to_accesos.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.2ms)
+  Rendered roles/_link_to_editar_rol.html.erb (2.7ms)
+  Rendered roles/_link_to_accesos.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/_link_to_editar_rol.html.erb (1.3ms)
+  Rendered roles/_lista.html.erb (59.5ms)
+  Rendered roles/_footer.html.erb (0.7ms)
+  Rendered roles/lista.js.erb (65.7ms)
+Completed 200 OK in 182ms (Views: 34.9ms | ActiveRecord: 125.6ms)
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:46 -0300
+
+
+Started GET "/personas/index" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+Processing by PersonasController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:48.208283"], ["perishable_token", "CVxgaXHv9VB6RsyUCQL"], ["updated_at", "2018-11-16 00:19:48.209031"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'personas' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  Rendered helpers/_autocomplete.html.erb (0.1ms)
+  [1m[35mGenero Load (1.0ms)[0m  SELECT "generos".* FROM "generos"   ORDER BY descripcion
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered helpers/_modal_window.html.erb (0.0ms)
+  Rendered personas/index.html.erb within layouts/application (42.1ms)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (1.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.5ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.6ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (29.2ms)
+  Rendered layouts/_header.html.erb (30.0ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 418ms (Views: 390.2ms | ActiveRecord: 22.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:48 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/sweetalert.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/sweetalert.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started POST "/personas/lista" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+Processing by PersonasController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_personas_id"=>"", "form_buscar_personas_nacionalidad"=>"", "form_buscar_personas_nacionalidad_id"=>"", "form_buscar_personas_tipo_documento"=>"", "form_buscar_personas_tipo_documento_id"=>"", "form_buscar_personas_documento_persona"=>"", "form_buscar_personas_nombre_persona"=>"", "form_buscar_personas_apellido_persona"=>"", "form_buscar_personas_fecha_nacimiento"=>"", "form_buscar_personas"=>{"genero_id"=>""}, "form_buscar_personas_libro"=>"", "form_buscar_personas_folio"=>"", "form_buscar_personas_acta"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:49.163976"], ["perishable_token", "FxxU0QbF8ZhHov5S8TS"], ["updated_at", "2018-11-16 00:19:49.164947"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.7ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'personas' and accion = 'lista' and sistema_id = 1)
+  [1m[36mPersona Load (0.5ms)[0m  [1mSELECT  "personas".* FROM "personas"   ORDER BY nombre_persona, apellido_persona LIMIT 10 OFFSET 0[0m
+  [1m[35mNacionalidad Load (0.4ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTipoDocumento Load (0.5ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mGenero Load (3.2ms)[0m  SELECT  "generos".* FROM "generos"  WHERE "generos"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered personas/_link_to_editar_persona.html.erb (1.8ms)
+  Rendered personas/_link_to_unificar_persona.html.erb (0.3ms)
+  Rendered personas/_lista.html.erb (17.3ms)
+  Rendered personas/_footer.html.erb (0.2ms)
+  Rendered personas/lista.js.erb (20.5ms)
+Completed 200 OK in 39ms (Views: 18.9ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:49 -0300
+
+
+Started GET "/usuarios/index" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+Processing by UsuariosController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:50.448638"], ["perishable_token", "2evjWBwrIrZ3Q460UxLA"], ["updated_at", "2018-11-16 00:19:50.449633"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'usuarios' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_autocomplete.html.erb (0.2ms)
+  Rendered helpers/_autocomplete.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/index.html.erb within layouts/application (12.1ms)
+  [1m[35mVAcceso Load (2.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.9ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.3ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (1.9ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.3ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (0.6ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.9ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (32.4ms)
+  Rendered layouts/_header.html.erb (33.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 324ms (Views: 292.5ms | ActiveRecord: 24.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:50 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started POST "/usuarios/lista" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+Processing by UsuariosController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_usuarios_id"=>"", "form_buscar_usuarios_nacionalidad"=>"", "form_buscar_usuarios_nacionalidad_id"=>"", "form_buscar_usuarios_tipo_documento"=>"", "form_buscar_usuarios_tipo_documento_id"=>"", "form_buscar_usuarios_documento_persona"=>"", "form_buscar_usuarios_nombre_persona"=>"", "form_buscar_usuarios_apellido_persona"=>"", "form_buscar_usuarios_email"=>"", "form_buscar_usuarios"=>{"active"=>""}}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (1.1ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:19:51.234824"], ["perishable_token", "pT50QizCfWqOCD1j8nvS"], ["updated_at", "2018-11-16 00:19:51.236463"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (3.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'usuarios' and accion = 'lista' and sistema_id = 1)[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"[0m
+  [1m[35mUsuario Load (1.1ms)[0m  SELECT  "usuarios".* FROM "usuarios" INNER JOIN "personas" ON "personas"."id" = "usuarios"."persona_id"  ORDER BY id LIMIT 10 OFFSET 0
+  [1m[36mPersona Load (0.8ms)[0m  [1mSELECT  "personas".* FROM "personas"  WHERE "personas"."id" = $1 LIMIT 1[0m  [["id", 3469664]]
+  [1m[35mNacionalidad Load (0.5ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTipoDocumento Load (0.3ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered usuarios/_link_to_perfiles.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/_link_to_reset_password.html.erb (2.0ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered usuarios/_link_to_editar_usuario.html.erb (3.0ms)
+  Rendered usuarios/_lista.html.erb (29.4ms)
+  Rendered usuarios/_footer.html.erb (0.2ms)
+  Rendered usuarios/lista.js.erb (33.1ms)
+Completed 200 OK in 58ms (Views: 34.5ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:51 -0300
+
+
+Started GET "/logout" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+Processing by UsuariosSessionsController#destroy as HTML
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:19:52.440676"], ["perishable_token", "Kr06LDmzPCKDyAhcyCAg"], ["updated_at", "2018-11-16 00:19:52.441801"]]
+  [1m[36m (40.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 48ms (ActiveRecord: 41.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[35mTipoDocumento Load (0.6ms)[0m  SELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion
+  [1m[36mNacionalidad Load (2.3ms)[0m  [1mSELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion[0m
+  [1m[35mRol Load (0.7ms)[0m  SELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion
+  Rendered usuarios_sessions/new.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 363ms (Views: 358.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:52 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:19:53 -0300
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/wolverine_base/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/wolverine_base/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2018-11-15 21:23:07 -0300
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xDYcHuC3k9CpNuZrD5/PkG5xwSLg5wXAMquk70XSmYA=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[36mPersona Load (3.1ms)[0m  [1mSELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')[0m
+  [1m[35mTipoDocumento Load (1.0ms)[0m  SELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mNacionalidad Load (0.7ms)[0m  [1mSELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUsuario Load (1.2ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936  [["current_login_at", "2018-11-16 00:23:08.253534"], ["last_login_at", "2018-11-16 00:19:08.055467"], ["last_request_at", "2018-11-16 00:23:08.253867"], ["login_count", 147], ["perishable_token", "NY2TGfXP6Y459u8NtIS"], ["updated_at", "2018-11-16 00:23:08.255361"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-11-16 00:23:08.267608"], ["perishable_token", "8LLwFkdIjxkneBcf5IWx"], ["updated_at", "2018-11-16 00:23:08.268623"]]
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mPerfil Load (0.6ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 241ms (ActiveRecord: 65.3ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2018-11-15 21:23:08 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (46.6ms)
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-11-16 00:23:08.953559"], ["perishable_token", "fHnYjCKQSOsVHQqMh0CI"], ["updated_at", "2018-11-16 00:23:08.954527"]]
+  [1m[35m (40.6ms)[0m  COMMIT
+  [1m[36mVAcceso Load (6.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (4.3ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (5.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.4ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.7ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (105.4ms)
+  Rendered layouts/_header.html.erb (107.9ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 693ms (Views: 618.9ms | ActiveRecord: 73.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-11-15 21:23:09 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-11-15 21:23:10 -0300
+
+
+Started GET "/assets/destacados/wolverine2.jpg" for 127.0.0.1 at 2018-11-15 21:23:15 -0300
+
+
+Started GET "/assets/destacados/wolverine3.jpg" for 127.0.0.1 at 2018-11-15 21:23:20 -0300

@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer versión 4.6.0.v201606072122 compilación &lt;@BUILD@></property>
+    <list-property name="userProperties">
+        <structure>
+            <property name="name">Cubo de datos.Conjunto de datos.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">Cubo de datos.Conjunto de datos.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+    </list-property>
+    <property name="Cubo de datos.Conjunto de datos.x">135</property>
+    <property name="Cubo de datos.Conjunto de datos.y">80</property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <property name="layoutPreference">auto layout</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <parameters>
+        <scalar-parameter name="matriculacion_id" id="6">
+            <property name="valueType">static</property>
+            <property name="isRequired">true</property>
+            <property name="dataType">integer</property>
+            <property name="distinct">true</property>
+            <list-property name="selectionList"/>
+            <property name="paramType">simple</property>
+            <property name="concealValue">false</property>
+            <property name="controlType">text-box</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="jdbc_DBRUE" id="4">
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>metadataBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledMetadataBidiFormatStr</name>
+                </ex-property>
+                <ex-property>
+                    <name>contentBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledContentBidiFormatStr</name>
+                </ex-property>
+            </list-property>
+            <property name="odaDriverClass">org.postgresql.Driver</property>
+            <property name="odaURL">jdbc:postgresql://192.168.16.122:5432/DBRUE</property>
+            <property name="odaUser">xamper.tar</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">ZGlnbGV0dC1ldm8tZHVndHJpby0xNDc=</encrypted-property>
+            <property name="OdaConnProfileName">jdbc_DBRUE</property>
+            <property name="OdaConnProfileStorePath">app/reports/jdbc_DBRUE</property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Conjunto de datos" id="5">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">nota_media_detalle_id</property>
+                    <property name="alias">nota_media_detalle_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">nota_media_detalle_id</text-property>
+                    <text-property name="heading">nota_media_detalle_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota_media_id</property>
+                    <property name="alias">nota_media_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">nota_media_id</text-property>
+                    <text-property name="heading">nota_media_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">plan_detalle_id</property>
+                    <property name="alias">plan_detalle_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">plan_detalle_id</text-property>
+                    <text-property name="heading">plan_detalle_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">plan_estudio_id</property>
+                    <property name="alias">plan_estudio_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">plan_estudio_id</text-property>
+                    <text-property name="heading">plan_estudio_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">area_academica_id</property>
+                    <property name="alias">area_academica_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">area_academica_id</text-property>
+                    <text-property name="heading">area_academica_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">area_academica</property>
+                    <property name="alias">area_academica</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">area_academica</text-property>
+                    <text-property name="heading">area_academica</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">disciplina_id</property>
+                    <property name="alias">disciplina_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">disciplina_id</text-property>
+                    <text-property name="heading">disciplina_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">disciplina</property>
+                    <property name="alias">disciplina</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">disciplina</text-property>
+                    <text-property name="heading">disciplina</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">carga_horaria</property>
+                    <property name="alias">carga_horaria</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">carga_horaria</text-property>
+                    <text-property name="heading">carga_horaria</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">orden</property>
+                    <property name="alias">orden</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">orden</text-property>
+                    <text-property name="heading">orden</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_plan_estudio_id</property>
+                    <property name="alias">tipo_plan_estudio_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">tipo_plan_estudio_id</text-property>
+                    <text-property name="heading">tipo_plan_estudio_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_plan_estudio</property>
+                    <property name="alias">tipo_plan_estudio</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">tipo_plan_estudio</text-property>
+                    <text-property name="heading">tipo_plan_estudio</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota_id</property>
+                    <property name="alias">nota_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">nota_id</text-property>
+                    <text-property name="heading">nota_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota</property>
+                    <property name="alias">nota</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">nota</text-property>
+                    <text-property name="heading">nota</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota_descripcion</property>
+                    <property name="alias">nota_descripcion</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nota_descripcion</text-property>
+                    <text-property name="heading">nota_descripcion</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota_estudiante_detalle_id</property>
+                    <property name="alias">nota_estudiante_detalle_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">nota_estudiante_detalle_id</text-property>
+                    <text-property name="heading">nota_estudiante_detalle_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_etapa_nota_id</property>
+                    <property name="alias">tipo_etapa_nota_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">tipo_etapa_nota_id</text-property>
+                    <text-property name="heading">tipo_etapa_nota_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_etapa_nota</property>
+                    <property name="alias">tipo_etapa_nota</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">tipo_etapa_nota</text-property>
+                    <text-property name="heading">tipo_etapa_nota</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">mes_evaluacion_id</property>
+                    <property name="alias">mes_evaluacion_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">mes_evaluacion_id</text-property>
+                    <text-property name="heading">mes_evaluacion_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">mes</property>
+                    <property name="alias">mes</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">mes</text-property>
+                    <text-property name="heading">mes</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">periodo_evaluacion_id</property>
+                    <property name="alias">periodo_evaluacion_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">periodo_evaluacion_id</text-property>
+                    <text-property name="heading">periodo_evaluacion_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">periodo</property>
+                    <property name="alias">periodo</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">periodo</text-property>
+                    <text-property name="heading">periodo</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">oferta_educativa_id</property>
+                    <property name="alias">oferta_educativa_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">oferta_educativa_id</text-property>
+                    <text-property name="heading">oferta_educativa_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nombre_institucion</property>
+                    <property name="alias">nombre_institucion</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nombre_institucion</text-property>
+                    <text-property name="heading">nombre_institucion</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">plan_optativo_id</property>
+                    <property name="alias">plan_optativo_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">plan_optativo_id</text-property>
+                    <text-property name="heading">plan_optativo_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">plan_optativo</property>
+                    <property name="alias">plan_optativo</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">plan_optativo</text-property>
+                    <text-property name="heading">plan_optativo</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_nota_id</property>
+                    <property name="alias">tipo_nota_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">tipo_nota_id</text-property>
+                    <text-property name="heading">tipo_nota_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">estado_nota_id</property>
+                    <property name="alias">estado_nota_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">estado_nota_id</text-property>
+                    <text-property name="heading">estado_nota_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">estado_nota</property>
+                    <property name="alias">estado_nota</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">estado_nota</text-property>
+                    <text-property name="heading">estado_nota</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_nota</property>
+                    <property name="alias">tipo_nota</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">tipo_nota</text-property>
+                    <text-property name="heading">tipo_nota</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">matriculacion_id</property>
+                    <property name="alias">matriculacion_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">matriculacion_id</text-property>
+                    <text-property name="heading">matriculacion_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">persona_id</property>
+                    <property name="alias">persona_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">persona_id</text-property>
+                    <text-property name="heading">persona_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">documento_persona</property>
+                    <property name="alias">documento_persona</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">documento_persona</text-property>
+                    <text-property name="heading">documento_persona</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">apellido_persona</property>
+                    <property name="alias">apellido_persona</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">apellido_persona</text-property>
+                    <text-property name="heading">apellido_persona</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nombre_persona</property>
+                    <property name="alias">nombre_persona</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nombre_persona</text-property>
+                    <text-property name="heading">nombre_persona</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">apellido_nombre</property>
+                    <property name="alias">apellido_nombre</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">apellido_nombre</text-property>
+                    <text-property name="heading">apellido_nombre</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nota_full</property>
+                    <property name="alias">nota_full</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nota_full</text-property>
+                    <text-property name="heading">nota_full</text-property>
+                </structure>
+            </list-property>
+            <list-property name="parameters">
+                <structure>
+                    <property name="name">matriculacion_id</property>
+                    <property name="paramName">matriculacion_id</property>
+                    <property name="nativeName"></property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                    <property name="position">1</property>
+                    <property name="isInput">true</property>
+                    <property name="isOutput">false</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">nota_media_detalle_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">nota_media_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">plan_detalle_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">plan_estudio_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">area_academica_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">area_academica</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">disciplina_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">disciplina</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">carga_horaria</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">orden</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">tipo_plan_estudio_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">tipo_plan_estudio</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">nota_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">nota</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">nota_descripcion</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">nota_estudiante_detalle_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">tipo_etapa_nota_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">tipo_etapa_nota</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">mes_evaluacion_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">mes</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">periodo_evaluacion_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">periodo</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">oferta_educativa_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">nombre_institucion</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">plan_optativo_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">plan_optativo</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">tipo_nota_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">estado_nota_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">29</property>
+                        <property name="name">estado_nota</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">30</property>
+                        <property name="name">tipo_nota</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">31</property>
+                        <property name="name">matriculacion_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">32</property>
+                        <property name="name">persona_id</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">33</property>
+                        <property name="name">documento_persona</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">34</property>
+                        <property name="name">apellido_persona</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">35</property>
+                        <property name="name">nombre_persona</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">36</property>
+                        <property name="name">apellido_nombre</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">37</property>
+                        <property name="name">nota_full</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">38</property>
+                        <property name="name">promedio_general</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">39</property>
+                        <property name="name">promedio_ordinario</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">jdbc_DBRUE</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">nota_media_detalle_id</property>
+                    <property name="nativeName">nota_media_detalle_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">nota_media_id</property>
+                    <property name="nativeName">nota_media_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">plan_detalle_id</property>
+                    <property name="nativeName">plan_detalle_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">plan_estudio_id</property>
+                    <property name="nativeName">plan_estudio_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">area_academica_id</property>
+                    <property name="nativeName">area_academica_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">area_academica</property>
+                    <property name="nativeName">area_academica</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">disciplina_id</property>
+                    <property name="nativeName">disciplina_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">disciplina</property>
+                    <property name="nativeName">disciplina</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">carga_horaria</property>
+                    <property name="nativeName">carga_horaria</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">orden</property>
+                    <property name="nativeName">orden</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">tipo_plan_estudio_id</property>
+                    <property name="nativeName">tipo_plan_estudio_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">tipo_plan_estudio</property>
+                    <property name="nativeName">tipo_plan_estudio</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">nota_id</property>
+                    <property name="nativeName">nota_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">nota</property>
+                    <property name="nativeName">nota</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">nota_descripcion</property>
+                    <property name="nativeName">nota_descripcion</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">nota_estudiante_detalle_id</property>
+                    <property name="nativeName">nota_estudiante_detalle_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">tipo_etapa_nota_id</property>
+                    <property name="nativeName">tipo_etapa_nota_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">tipo_etapa_nota</property>
+                    <property name="nativeName">tipo_etapa_nota</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">mes_evaluacion_id</property>
+                    <property name="nativeName">mes_evaluacion_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">mes</property>
+                    <property name="nativeName">mes</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">periodo_evaluacion_id</property>
+                    <property name="nativeName">periodo_evaluacion_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">periodo</property>
+                    <property name="nativeName">periodo</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">oferta_educativa_id</property>
+                    <property name="nativeName">oferta_educativa_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">nombre_institucion</property>
+                    <property name="nativeName">nombre_institucion</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">plan_optativo_id</property>
+                    <property name="nativeName">plan_optativo_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">plan_optativo</property>
+                    <property name="nativeName">plan_optativo</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">tipo_nota_id</property>
+                    <property name="nativeName">tipo_nota_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">28</property>
+                    <property name="name">estado_nota_id</property>
+                    <property name="nativeName">estado_nota_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">29</property>
+                    <property name="name">estado_nota</property>
+                    <property name="nativeName">estado_nota</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">30</property>
+                    <property name="name">tipo_nota</property>
+                    <property name="nativeName">tipo_nota</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">31</property>
+                    <property name="name">matriculacion_id</property>
+                    <property name="nativeName">matriculacion_id</property>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="position">32</property>
+                    <property name="name">persona_id</property>
+                    <property name="nativeName">persona_id</property>
+                    <property name="dataType">decimal</property>
+                </structure>
+                <structure>
+                    <property name="position">33</property>
+                    <property name="name">documento_persona</property>
+                    <property name="nativeName">documento_persona</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">34</property>
+                    <property name="name">apellido_persona</property>
+                    <property name="nativeName">apellido_persona</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">35</property>
+                    <property name="name">nombre_persona</property>
+                    <property name="nativeName">nombre_persona</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">36</property>
+                    <property name="name">apellido_nombre</property>
+                    <property name="nativeName">apellido_nombre</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">37</property>
+                    <property name="name">nota_full</property>
+                    <property name="nativeName">nota_full</property>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="position">38</property>
+                    <property name="name">promedio_general</property>
+                    <property name="nativeName">promedio_general</property>
+                    <property name="dataType">decimal</property>
+                </structure>
+                <structure>
+                    <property name="position">39</property>
+                    <property name="name">promedio_ordinario</property>
+                    <property name="nativeName">promedio_ordinario</property>
+                    <property name="dataType">decimal</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[select i.*
+from v_notas_medias_detalles_planilla i
+where i.tipo_nota_id = 1 
+and i.matriculacion_id = ?]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota_media_detalle_id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota_media_detalle_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota_media_detalle_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota_media_id</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota_media_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota_media_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>plan_detalle_id</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>plan_detalle_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>plan_detalle_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>plan_estudio_id</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>plan_estudio_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>plan_estudio_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>area_academica_id</design:name>
+              <design:position>5</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>area_academica_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>area_academica_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>area_academica</design:name>
+              <design:position>6</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>area_academica</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>area_academica</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>disciplina_id</design:name>
+              <design:position>7</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>disciplina_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>disciplina_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>disciplina</design:name>
+              <design:position>8</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>disciplina</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>disciplina</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>carga_horaria</design:name>
+              <design:position>9</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>carga_horaria</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>carga_horaria</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>orden</design:name>
+              <design:position>10</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>orden</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>orden</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_plan_estudio_id</design:name>
+              <design:position>11</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_plan_estudio_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_plan_estudio_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_plan_estudio</design:name>
+              <design:position>12</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_plan_estudio</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_plan_estudio</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota_id</design:name>
+              <design:position>13</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota</design:name>
+              <design:position>14</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota_descripcion</design:name>
+              <design:position>15</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>100</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota_descripcion</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota_descripcion</design:label>
+            <design:formattingHints>
+              <design:displaySize>100</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nota_estudiante_detalle_id</design:name>
+              <design:position>16</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nota_estudiante_detalle_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nota_estudiante_detalle_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_etapa_nota_id</design:name>
+              <design:position>17</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_etapa_nota_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_etapa_nota_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_etapa_nota</design:name>
+              <design:position>18</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_etapa_nota</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_etapa_nota</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>mes_evaluacion_id</design:name>
+              <design:position>19</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>mes_evaluacion_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>mes_evaluacion_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>mes</design:name>
+              <design:position>20</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>mes</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>mes</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>periodo_evaluacion_id</design:name>
+              <design:position>21</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>periodo_evaluacion_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>periodo_evaluacion_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>periodo</design:name>
+              <design:position>22</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>periodo</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>periodo</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>oferta_educativa_id</design:name>
+              <design:position>23</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>oferta_educativa_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>oferta_educativa_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nombre_institucion</design:name>
+              <design:position>24</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>2147483647</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nombre_institucion</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nombre_institucion</design:label>
+            <design:formattingHints>
+              <design:displaySize>2147483647</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>plan_optativo_id</design:name>
+              <design:position>25</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>plan_optativo_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>plan_optativo_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>plan_optativo</design:name>
+              <design:position>26</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>plan_optativo</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>plan_optativo</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_nota_id</design:name>
+              <design:position>27</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_nota_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_nota_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>estado_nota_id</design:name>
+              <design:position>28</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>estado_nota_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>estado_nota_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>estado_nota</design:name>
+              <design:position>29</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>100</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>estado_nota</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>estado_nota</design:label>
+            <design:formattingHints>
+              <design:displaySize>100</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_nota</design:name>
+              <design:position>30</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_nota</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_nota</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>matriculacion_id</design:name>
+              <design:position>31</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>matriculacion_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>matriculacion_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>persona_id</design:name>
+              <design:position>32</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>-5</design:nativeDataTypeCode>
+            <design:precision>19</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>persona_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>persona_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>20</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>documento_persona</design:name>
+              <design:position>33</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>documento_persona</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>documento_persona</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>apellido_persona</design:name>
+              <design:position>34</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>100</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>apellido_persona</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>apellido_persona</design:label>
+            <design:formattingHints>
+              <design:displaySize>100</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nombre_persona</design:name>
+              <design:position>35</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>100</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nombre_persona</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nombre_persona</design:label>
+            <design:formattingHints>
+              <design:displaySize>100</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <cubes>
+        <tabular-cube name="Cubo de datos" id="14">
+            <property name="dimensions">
+                <tabular-dimension name="documento_persona" id="21">
+                    <property name="defaultHierarchy">NewTabularHierarchy2</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy2" id="22">
+                            <property name="levels">
+                                <tabular-level name="documento_persona" id="23">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">documento_persona</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="area_academica" id="25">
+                    <property name="defaultHierarchy">NewTabularHierarchy3</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy3" id="26">
+                            <property name="levels">
+                                <tabular-level name="area_academica" id="27">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">area_academica</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="disciplina" id="28">
+                    <property name="defaultHierarchy">NewTabularHierarchy4</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy4" id="29">
+                            <property name="levels">
+                                <tabular-level name="disciplina" id="30">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">disciplina</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="tipo_plan_estudio" id="92">
+                    <property name="defaultHierarchy">NewTabularHierarchy5</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy5" id="93">
+                            <property name="levels">
+                                <tabular-level name="tipo_plan_estudio" id="94">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">tipo_plan_estudio</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="orden" id="123">
+                    <property name="defaultHierarchy">NewTabularHierarchy6</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy6" id="124">
+                            <property name="levels">
+                                <tabular-level name="orden" id="125">
+                                    <property name="dataType">integer</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="columnName">orden</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="apellido_nombre" id="126">
+                    <property name="defaultHierarchy">NewTabularHierarchy</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy" id="127">
+                            <property name="levels">
+                                <tabular-level name="apellido_nombre" id="128">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">apellido_nombre</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="nota_media_id" id="282">
+                    <property name="defaultHierarchy">NewTabularHierarchy1</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy1" id="283">
+                            <property name="levels">
+                                <tabular-level name="nota_media_id" id="284">
+                                    <property name="dataType">integer</property>
+                                    <property name="levelType">dynamic</property>
+                                    <property name="columnName">nota_media_id</property>
+                                    <expression name="displayColumnName" type="javascript">vars["orden"]+1</expression>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="promedio" id="385">
+                    <property name="defaultHierarchy">NewTabularHierarchy7</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy7" id="386">
+                            <property name="levels">
+                                <tabular-level name="promedio_general" id="387">
+                                    <property name="dataType">decimal</property>
+                                    <property name="columnName">promedio_general</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+            </property>
+            <property name="measureGroups">
+                <tabular-measure-group name="Campo de resumen" id="250">
+                    <property name="measures">
+                        <tabular-measure name="nota" id="251">
+                            <expression name="measureExpression" type="javascript">dataSetRow["nota"]</expression>
+                            <property name="dataType">integer</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+                <tabular-measure-group name="Campo de resumen1" id="261">
+                    <property name="measures">
+                        <tabular-measure name="nota_full" id="262">
+                            <property name="function">count</property>
+                            <expression name="measureExpression" type="javascript">dataSetRow["nota_full"]</expression>
+                            <property name="dataType">integer</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+            </property>
+            <property name="dataSet">Conjunto de datos</property>
+        </tabular-cube>
+    </cubes>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <property name="type">us-legal</property>
+            <property name="orientation">landscape</property>
+            <property name="fontSize">8pt</property>
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="388">
+            <property name="dataSet">Conjunto de datos</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">nota_media_detalle_id</property>
+                    <text-property name="displayName">nota_media_detalle_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_media_detalle_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">nota_media_id</property>
+                    <text-property name="displayName">nota_media_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_media_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">plan_detalle_id</property>
+                    <text-property name="displayName">plan_detalle_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["plan_detalle_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">plan_estudio_id</property>
+                    <text-property name="displayName">plan_estudio_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["plan_estudio_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">area_academica_id</property>
+                    <text-property name="displayName">area_academica_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["area_academica_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">area_academica</property>
+                    <text-property name="displayName">area_academica</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["area_academica"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">disciplina_id</property>
+                    <text-property name="displayName">disciplina_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["disciplina_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">disciplina</property>
+                    <text-property name="displayName">disciplina</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["disciplina"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">carga_horaria</property>
+                    <text-property name="displayName">carga_horaria</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["carga_horaria"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">orden</property>
+                    <text-property name="displayName">orden</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["orden"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_plan_estudio_id</property>
+                    <text-property name="displayName">tipo_plan_estudio_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_plan_estudio_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_plan_estudio</property>
+                    <text-property name="displayName">tipo_plan_estudio</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_plan_estudio"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">nota_id</property>
+                    <text-property name="displayName">nota_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">nota</property>
+                    <text-property name="displayName">nota</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">nota_descripcion</property>
+                    <text-property name="displayName">nota_descripcion</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_descripcion"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">nota_estudiante_detalle_id</property>
+                    <text-property name="displayName">nota_estudiante_detalle_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_estudiante_detalle_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_etapa_nota_id</property>
+                    <text-property name="displayName">tipo_etapa_nota_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_etapa_nota_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_etapa_nota</property>
+                    <text-property name="displayName">tipo_etapa_nota</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_etapa_nota"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">mes_evaluacion_id</property>
+                    <text-property name="displayName">mes_evaluacion_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["mes_evaluacion_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">mes</property>
+                    <text-property name="displayName">mes</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["mes"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">periodo_evaluacion_id</property>
+                    <text-property name="displayName">periodo_evaluacion_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["periodo_evaluacion_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">periodo</property>
+                    <text-property name="displayName">periodo</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["periodo"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">oferta_educativa_id</property>
+                    <text-property name="displayName">oferta_educativa_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["oferta_educativa_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">nombre_institucion</property>
+                    <text-property name="displayName">nombre_institucion</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nombre_institucion"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">plan_optativo_id</property>
+                    <text-property name="displayName">plan_optativo_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["plan_optativo_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">plan_optativo</property>
+                    <text-property name="displayName">plan_optativo</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["plan_optativo"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_nota_id</property>
+                    <text-property name="displayName">tipo_nota_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_nota_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">estado_nota_id</property>
+                    <text-property name="displayName">estado_nota_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["estado_nota_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">estado_nota</property>
+                    <text-property name="displayName">estado_nota</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["estado_nota"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_nota</property>
+                    <text-property name="displayName">tipo_nota</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["tipo_nota"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">matriculacion_id</property>
+                    <text-property name="displayName">matriculacion_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["matriculacion_id"]</expression>
+                    <property name="dataType">integer</property>
+                </structure>
+                <structure>
+                    <property name="name">persona_id</property>
+                    <text-property name="displayName">persona_id</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["persona_id"]</expression>
+                    <property name="dataType">decimal</property>
+                </structure>
+                <structure>
+                    <property name="name">documento_persona</property>
+                    <text-property name="displayName">documento_persona</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["documento_persona"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">apellido_persona</property>
+                    <text-property name="displayName">apellido_persona</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["apellido_persona"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">nombre_persona</property>
+                    <text-property name="displayName">nombre_persona</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nombre_persona"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">apellido_nombre</property>
+                    <text-property name="displayName">apellido_nombre</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["apellido_nombre"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">nota_full</property>
+                    <text-property name="displayName">nota_full</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["nota_full"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">promedio_general</property>
+                    <text-property name="displayName">promedio_general</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["promedio_general"]</expression>
+                    <property name="dataType">decimal</property>
+                </structure>
+                <structure>
+                    <property name="name">promedio_ordinario</property>
+                    <text-property name="displayName">promedio_ordinario</text-property>
+                    <expression name="expression" type="javascript">dataSetRow["promedio_ordinario"]</expression>
+                    <property name="dataType">decimal</property>
+                </structure>
+            </list-property>
+            <column id="401"/>
+            <column id="402"/>
+            <column id="403"/>
+            <header>
+                <row id="389">
+                    <cell id="390">
+                        <extended-item extensionName="Crosstab" extensionVersion="3.7.0" id="185">
+                            <property name="cube">Cubo de datos</property>
+                            <property name="measures">
+                                <extended-item extensionName="MeasureView" id="294">
+                                    <property name="measure">nota</property>
+                                    <property name="detail">
+                                        <extended-item extensionName="AggregationCell" id="295">
+                                            <property name="aggregationOnRow">documento_persona/documento_persona</property>
+                                            <property name="aggregationOnColumn">disciplina/disciplina</property>
+                                            <property name="content">
+                                                <data id="296">
+                                                    <property name="textAlign">center</property>
+                                                    <property name="resultSetColumn">nota_documento_persona/documento_persona_disciplina/disciplina_1</property>
+                                                </data>
+                                            </property>
+                                        </extended-item>
+                                    </property>
+                                    <property name="header">
+                                        <extended-item extensionName="CrosstabCell" id="297"/>
+                                    </property>
+                                </extended-item>
+                            </property>
+                            <property name="rows">
+                                <extended-item extensionName="CrosstabView" id="193">
+                                    <property name="views">
+                                        <extended-item extensionName="DimensionView" id="376">
+                                            <property name="dimension">nota_media_id</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles2" id="377">
+                                                    <property name="level">nota_media_id/nota_media_id</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="378">
+                                                            <property name="content">
+                                                                <data name="nota_media_id" id="383">
+                                                                    <property name="resultSetColumn">nota_media_id_1</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                        <extended-item extensionName="DimensionView" id="199">
+                                            <property name="dimension">apellido_nombre</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles1" id="200">
+                                                    <property name="level">apellido_nombre/apellido_nombre</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="201">
+                                                            <property name="content">
+                                                                <data name="apellido_nombre" id="203">
+                                                                    <property name="resultSetColumn">apellido_nombre</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                        <extended-item extensionName="DimensionView" id="194">
+                                            <property name="dimension">documento_persona</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles" id="195">
+                                                    <property name="level">documento_persona/documento_persona</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="196">
+                                                            <property name="content">
+                                                                <data name="documento_persona" id="197">
+                                                                    <property name="resultSetColumn">documento_persona</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                    </property>
+                                </extended-item>
+                            </property>
+                            <property name="columns">
+                                <extended-item extensionName="CrosstabView" id="217">
+                                    <property name="views">
+                                        <extended-item extensionName="DimensionView" id="230">
+                                            <property name="dimension">tipo_plan_estudio</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles5" id="231">
+                                                    <property name="level">tipo_plan_estudio/tipo_plan_estudio</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="232">
+                                                            <property name="content">
+                                                                <data name="tipo_plan_estudio" id="236">
+                                                                    <property name="resultSetColumn">tipo_plan_estudio</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                        <extended-item extensionName="DimensionView" id="222">
+                                            <property name="dimension">area_academica</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles4" id="223">
+                                                    <property name="level">area_academica/area_academica</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="224">
+                                                            <property name="content">
+                                                                <data name="area_academica" id="228">
+                                                                    <property name="resultSetColumn">area_academica</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                        <extended-item extensionName="DimensionView" id="218">
+                                            <property name="dimension">disciplina</property>
+                                            <property name="levels">
+                                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles3" id="219">
+                                                    <property name="level">disciplina/disciplina</property>
+                                                    <property name="member">
+                                                        <extended-item extensionName="CrosstabCell" id="220">
+                                                            <property name="content">
+                                                                <data name="disciplina" id="221">
+                                                                    <property name="resultSetColumn">disciplina</property>
+                                                                </data>
+                                                            </property>
+                                                        </extended-item>
+                                                    </property>
+                                                </extended-item>
+                                            </property>
+                                        </extended-item>
+                                    </property>
+                                </extended-item>
+                            </property>
+                            <property name="header">
+                                <extended-item extensionName="CrosstabCell" id="382"/>
+                                <extended-item extensionName="CrosstabCell" id="234"/>
+                                <extended-item extensionName="CrosstabCell" id="235"/>
+                                <extended-item extensionName="CrosstabCell" id="381"/>
+                                <extended-item extensionName="CrosstabCell" id="226"/>
+                                <extended-item extensionName="CrosstabCell" id="227"/>
+                                <extended-item extensionName="CrosstabCell" id="380"/>
+                                <extended-item extensionName="CrosstabCell" id="300"/>
+                                <extended-item extensionName="CrosstabCell" id="301">
+                                    <property name="content">
+                                        <label id="302">
+                                            <text-property name="text">disciplina</text-property>
+                                        </label>
+                                    </property>
+                                </extended-item>
+                                <extended-item extensionName="CrosstabCell" id="379">
+                                    <property name="content">
+                                        <label id="384">
+                                            <text-property name="text">nota_media_id</text-property>
+                                        </label>
+                                    </property>
+                                </extended-item>
+                                <extended-item extensionName="CrosstabCell" id="202">
+                                    <property name="content">
+                                        <label id="204">
+                                            <text-property name="text">Apellidos, Nombres</text-property>
+                                        </label>
+                                    </property>
+                                </extended-item>
+                                <extended-item extensionName="CrosstabCell" id="186">
+                                    <property name="content">
+                                        <label id="198">
+                                            <text-property name="text">C.I.N°</text-property>
+                                        </label>
+                                    </property>
+                                </extended-item>
+                            </property>
+                            <list-property name="boundDataColumns">
+                                <structure>
+                                    <property name="name">documento_persona</property>
+                                    <expression name="expression">dimension["documento_persona"]["documento_persona"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">apellido_nombre</property>
+                                    <expression name="expression">dimension["apellido_nombre"]["apellido_nombre"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">disciplina</property>
+                                    <expression name="expression">dimension["disciplina"]["disciplina"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">area_academica</property>
+                                    <expression name="expression">dimension["area_academica"]["area_academica"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">tipo_plan_estudio</property>
+                                    <expression name="expression">dimension["tipo_plan_estudio"]["tipo_plan_estudio"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">nota_documento_persona/documento_persona_disciplina/disciplina</property>
+                                    <property name="dataType">integer</property>
+                                    <simple-property-list name="aggregateOn">
+                                        <value>apellido_nombre/apellido_nombre</value>
+                                        <value>disciplina/disciplina</value>
+                                    </simple-property-list>
+                                    <property name="aggregateFunction">SUM</property>
+                                    <list-property name="arguments">
+                                        <structure>
+                                            <property name="name">Expression</property>
+                                            <expression name="value" type="javascript">measure["nota"]</expression>
+                                        </structure>
+                                    </list-property>
+                                </structure>
+                                <structure>
+                                    <property name="name">nota_documento_persona/documento_persona_disciplina/disciplina_1</property>
+                                    <expression name="expression">measure["nota"]</expression>
+                                    <property name="dataType">integer</property>
+                                    <simple-property-list name="aggregateOn">
+                                        <value>documento_persona/documento_persona</value>
+                                        <value>disciplina/disciplina</value>
+                                    </simple-property-list>
+                                    <property name="aggregateFunction">SUM</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">nota_full_documento_persona/documento_persona_disciplina/disciplina</property>
+                                    <property name="dataType">integer</property>
+                                    <simple-property-list name="aggregateOn">
+                                        <value>documento_persona/documento_persona</value>
+                                        <value>disciplina/disciplina</value>
+                                    </simple-property-list>
+                                    <property name="aggregateFunction">COUNT</property>
+                                    <list-property name="arguments">
+                                        <structure>
+                                            <property name="name">Expression</property>
+                                            <expression name="value" type="javascript">measure["nota_full"]</expression>
+                                        </structure>
+                                    </list-property>
+                                </structure>
+                                <structure>
+                                    <property name="name">nota_media_id</property>
+                                    <expression name="expression" type="javascript">vars["orden"]+1</expression>
+                                    <property name="dataType">integer</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">promedio_ordinario_documento_persona/documento_persona_disciplina/disciplina</property>
+                                    <expression name="expression">measure["promedio_ordinario"]</expression>
+                                    <property name="dataType">decimal</property>
+                                    <simple-property-list name="aggregateOn">
+                                        <value>documento_persona/documento_persona</value>
+                                        <value>disciplina/disciplina</value>
+                                    </simple-property-list>
+                                    <property name="aggregateFunction">SUM</property>
+                                </structure>
+                                <structure>
+                                    <property name="name">nota_media_id_1</property>
+                                    <expression name="expression">dimension["nota_media_id"]["nota_media_id"]["DisplayName"]</expression>
+                                    <property name="dataType">string</property>
+                                </structure>
+                            </list-property>
+                        </extended-item>
+                    </cell>
+                    <cell id="391">
+                        <data id="404">
+                            <property name="resultSetColumn">promedio_general</property>
+                        </data>
+                    </cell>
+                    <cell id="392"/>
+                </row>
+            </header>
+            <detail>
+                <row id="393">
+                    <cell id="394"/>
+                    <cell id="395"/>
+                    <cell id="396"/>
+                </row>
+            </detail>
+            <footer>
+                <row id="397">
+                    <cell id="398"/>
+                    <cell id="399"/>
+                    <cell id="400"/>
+                </row>
+            </footer>
+        </table>
+    </body>
+    <property name="pageVariables">
+        <variable-element name="orden">
+            <expression name="value" type="javascript">0</expression>
+            <property name="type">report</property>
+        </variable-element>
+    </property>
+</report>

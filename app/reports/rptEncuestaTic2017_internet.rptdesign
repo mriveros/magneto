@@ -1,0 +1,2311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer versión 4.6.0.v201606072122 compilación &lt;@BUILD@></property>
+    <property name="units">in</property>
+    <property name="iconFile">/templates/crosstab.gif</property>
+    <property name="cheatSheet">org.eclipse.birt.report.designer.ui.cheatsheet.crosstab</property>
+    <property name="bidiLayoutOrientation">ltr</property>
+    <property name="imageDPI">96</property>
+    <template-parameter-definitions>
+        <template-parameter-definition name="NewTemplateParameterDefinition" id="14">
+            <property name="allowedType">ExtendedItem</property>
+            <text-property name="description">Double-click this cross tab.
+Follow the instructions in the cheat sheet to set up the data to display.</text-property>
+            <default>
+                <extended-item extensionName="Crosstab" extensionVersion="3.7.0" id="15">
+                    <property name="header">
+                        <extended-item extensionName="CrosstabCell" id="16"/>
+                    </property>
+                </extended-item>
+            </default>
+        </template-parameter-definition>
+    </template-parameter-definitions>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Fuente de Datos" id="21">
+            <list-property name="privateDriverProperties">
+                <ex-property>
+                    <name>metadataBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledMetadataBidiFormatStr</name>
+                </ex-property>
+                <ex-property>
+                    <name>contentBidiFormatStr</name>
+                    <value>ILYNN</value>
+                </ex-property>
+                <ex-property>
+                    <name>disabledContentBidiFormatStr</name>
+                </ex-property>
+            </list-property>
+            <property name="odaDriverClass">org.postgresql.Driver</property>
+            <property name="odaURL">jdbc:postgresql://192.168.16.122:5432/DBRUE</property>
+            <property name="odaUser">xamper.tar</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">ZGlnbGV0dC1ldm8tZHVndHJpby0xNDc=</encrypted-property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Conjunto de datos" id="22">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">departamento_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">departamento_id</text-property>
+                    <text-property name="heading">departamento_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">departamento</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">departamento</text-property>
+                    <text-property name="heading">departamento</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">distrito_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">distrito_id</text-property>
+                    <text-property name="heading">distrito_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">distrito</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">distrito</text-property>
+                    <text-property name="heading">distrito</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">institucion_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">institucion_id</text-property>
+                    <text-property name="heading">institucion_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">codigo_institucion</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">codigo_institucion</text-property>
+                    <text-property name="heading">codigo_institucion</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nombre_institucion</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nombre_institucion</text-property>
+                    <text-property name="heading">nombre_institucion</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">codigo_establecimiento</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">codigo_establecimiento</text-property>
+                    <text-property name="heading">codigo_establecimiento</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">usuario_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">usuario_id</text-property>
+                    <text-property name="heading">usuario_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">documento_persona</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">documento_persona</text-property>
+                    <text-property name="heading">documento_persona</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">nombre_persona</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">nombre_persona</text-property>
+                    <text-property name="heading">nombre_persona</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">con_servicio_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">con_servicio_internet</text-property>
+                    <text-property name="heading">con_servicio_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_servicio_internet_id</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">tipo_servicio_internet_id</text-property>
+                    <text-property name="heading">tipo_servicio_internet_id</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">tipo_servicio_internet</property>
+                    <property name="analysis">dimension</property>
+                    <text-property name="displayName">tipo_servicio_internet</text-property>
+                    <text-property name="heading">tipo_servicio_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">con_computadoras</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">con_computadoras</text-property>
+                    <text-property name="heading">con_computadoras</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">con_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">con_computadoras_con_internet</text-property>
+                    <text-property name="heading">con_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">con_laboratorio_informatica</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">con_laboratorio_informatica</text-property>
+                    <text-property name="heading">con_laboratorio_informatica</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">laboratorio_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">laboratorio_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">laboratorio_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">laboratorio_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">laboratorio_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">laboratorio_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">laboratorio_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">laboratorio_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">laboratorio_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">aulas_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">aulas_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">aulas_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">aulas_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">aulas_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">aulas_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">aulas_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">aulas_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">aulas_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">sala_profesores_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">sala_profesores_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">sala_profesores_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">sala_profesores_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">sala_profesores_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">sala_profesores_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">sala_profesores_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">sala_profesores_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">sala_profesores_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">biblioteca_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">biblioteca_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">biblioteca_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">biblioteca_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">biblioteca_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">biblioteca_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">biblioteca_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">biblioteca_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">biblioteca_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">secretaria_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">secretaria_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">secretaria_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">secretaria_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">secretaria_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">secretaria_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">secretaria_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">secretaria_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">secretaria_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">direccion_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">direccion_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">direccion_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">direccion_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">direccion_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">direccion_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">direccion_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">direccion_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">direccion_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">otra_dependencia_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">otra_dependencia_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">otra_dependencia_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">otra_dependencia_cantidad_computadoras_no_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">otra_dependencia_cantidad_computadoras_no_funcionando</text-property>
+                    <text-property name="heading">otra_dependencia_cantidad_computadoras_no_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">otra_dependencia_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">otra_dependencia_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">otra_dependencia_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">pedagogico_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">pedagogico_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">pedagogico_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">pedagogico_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">pedagogico_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">pedagogico_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">administrativo_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">administrativo_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">administrativo_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">administrativo_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">administrativo_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">administrativo_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">pedagogicoyadministrativo_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">pedagogicoyadministrativo_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">pedagogicoyadministrativo_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">pedagogicoyadministrativo_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">pedagogicoyadministrativo_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">pedagogicoyadministrativo_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">comunidad_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">comunidad_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">comunidad_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">comunidad_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">comunidad_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">comunidad_cantidad_computadoras_con_internet</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">todo_uso_cantidad_computadoras_funcionando</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">todo_uso_cantidad_computadoras_funcionando</text-property>
+                    <text-property name="heading">todo_uso_cantidad_computadoras_funcionando</text-property>
+                </structure>
+                <structure>
+                    <property name="columnName">todo_uso_cantidad_computadoras_con_internet</property>
+                    <property name="analysis">measure</property>
+                    <text-property name="displayName">todo_uso_cantidad_computadoras_con_internet</text-property>
+                    <text-property name="heading">todo_uso_cantidad_computadoras_con_internet</text-property>
+                </structure>
+            </list-property>
+            <list-property name="parameters"/>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">departamento_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">departamento</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">distrito_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">distrito</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">institucion_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">codigo_institucion</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">nombre_institucion</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">codigo_establecimiento</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">usuario_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">documento_persona</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">nombre_persona</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">con_servicio_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">tipo_servicio_internet_id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">tipo_servicio_internet</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">con_computadoras</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">con_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">con_laboratorio_informatica</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">laboratorio_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">laboratorio_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">laboratorio_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">aulas_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">aulas_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">aulas_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">sala_profesores_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">sala_profesores_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">sala_profesores_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">biblioteca_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">biblioteca_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">29</property>
+                        <property name="name">biblioteca_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">30</property>
+                        <property name="name">secretaria_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">31</property>
+                        <property name="name">secretaria_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">32</property>
+                        <property name="name">secretaria_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">33</property>
+                        <property name="name">direccion_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">34</property>
+                        <property name="name">direccion_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">35</property>
+                        <property name="name">direccion_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">36</property>
+                        <property name="name">otra_dependencia_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">37</property>
+                        <property name="name">otra_dependencia_cantidad_computadoras_no_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">38</property>
+                        <property name="name">otra_dependencia_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">39</property>
+                        <property name="name">pedagogico_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">40</property>
+                        <property name="name">pedagogico_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">41</property>
+                        <property name="name">administrativo_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">42</property>
+                        <property name="name">administrativo_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">43</property>
+                        <property name="name">pedagogicoyadministrativo_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">44</property>
+                        <property name="name">pedagogicoyadministrativo_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">45</property>
+                        <property name="name">comunidad_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">46</property>
+                        <property name="name">comunidad_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">47</property>
+                        <property name="name">todo_uso_cantidad_computadoras_funcionando</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">48</property>
+                        <property name="name">todo_uso_cantidad_computadoras_con_internet</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Fuente de Datos</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">departamento_id</property>
+                    <property name="nativeName">departamento_id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">departamento</property>
+                    <property name="nativeName">departamento</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">distrito_id</property>
+                    <property name="nativeName">distrito_id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">distrito</property>
+                    <property name="nativeName">distrito</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">institucion_id</property>
+                    <property name="nativeName">institucion_id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">codigo_institucion</property>
+                    <property name="nativeName">codigo_institucion</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">nombre_institucion</property>
+                    <property name="nativeName">nombre_institucion</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">codigo_establecimiento</property>
+                    <property name="nativeName">codigo_establecimiento</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">usuario_id</property>
+                    <property name="nativeName">usuario_id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">documento_persona</property>
+                    <property name="nativeName">documento_persona</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">nombre_persona</property>
+                    <property name="nativeName">nombre_persona</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">con_servicio_internet</property>
+                    <property name="nativeName">con_servicio_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">-7</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">tipo_servicio_internet_id</property>
+                    <property name="nativeName">tipo_servicio_internet_id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">tipo_servicio_internet</property>
+                    <property name="nativeName">tipo_servicio_internet</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">con_computadoras</property>
+                    <property name="nativeName">con_computadoras</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">-7</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">con_computadoras_con_internet</property>
+                    <property name="nativeName">con_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">-7</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">con_laboratorio_informatica</property>
+                    <property name="nativeName">con_laboratorio_informatica</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">-7</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">laboratorio_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">laboratorio_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">laboratorio_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">laboratorio_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">laboratorio_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">laboratorio_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">aulas_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">aulas_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">aulas_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">aulas_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">aulas_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">aulas_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">sala_profesores_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">sala_profesores_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">sala_profesores_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">sala_profesores_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">sala_profesores_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">sala_profesores_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">biblioteca_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">biblioteca_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">28</property>
+                    <property name="name">biblioteca_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">biblioteca_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">29</property>
+                    <property name="name">biblioteca_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">biblioteca_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">30</property>
+                    <property name="name">secretaria_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">secretaria_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">31</property>
+                    <property name="name">secretaria_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">secretaria_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">32</property>
+                    <property name="name">secretaria_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">secretaria_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">33</property>
+                    <property name="name">direccion_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">direccion_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">34</property>
+                    <property name="name">direccion_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">direccion_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">35</property>
+                    <property name="name">direccion_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">direccion_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">36</property>
+                    <property name="name">otra_dependencia_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">otra_dependencia_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">37</property>
+                    <property name="name">otra_dependencia_cantidad_computadoras_no_funcionando</property>
+                    <property name="nativeName">otra_dependencia_cantidad_computadoras_no_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">38</property>
+                    <property name="name">otra_dependencia_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">otra_dependencia_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">39</property>
+                    <property name="name">pedagogico_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">pedagogico_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">40</property>
+                    <property name="name">pedagogico_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">pedagogico_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">41</property>
+                    <property name="name">administrativo_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">administrativo_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">42</property>
+                    <property name="name">administrativo_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">administrativo_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">43</property>
+                    <property name="name">pedagogicoyadministrativo_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">pedagogicoyadministrativo_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">44</property>
+                    <property name="name">pedagogicoyadministrativo_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">pedagogicoyadministrativo_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">45</property>
+                    <property name="name">comunidad_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">comunidad_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">46</property>
+                    <property name="name">comunidad_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">comunidad_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">47</property>
+                    <property name="name">todo_uso_cantidad_computadoras_funcionando</property>
+                    <property name="nativeName">todo_uso_cantidad_computadoras_funcionando</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">48</property>
+                    <property name="name">todo_uso_cantidad_computadoras_con_internet</property>
+                    <property name="nativeName">todo_uso_cantidad_computadoras_con_internet</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+            </list-property>
+            <xml-property name="queryText"><![CDATA[select i.* 
+from v_encuestas_infraestructuras_2017_tic_detalle i
+where i.con_servicio_internet is true;]]></xml-property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>2.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>departamento_id</design:name>
+              <design:position>1</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>departamento_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>departamento_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>departamento</design:name>
+              <design:position>2</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>departamento</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>departamento</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>distrito_id</design:name>
+              <design:position>3</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>distrito_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>distrito_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>distrito</design:name>
+              <design:position>4</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>distrito</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>distrito</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>institucion_id</design:name>
+              <design:position>5</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>institucion_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>institucion_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>codigo_institucion</design:name>
+              <design:position>6</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>20</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>codigo_institucion</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>codigo_institucion</design:label>
+            <design:formattingHints>
+              <design:displaySize>20</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nombre_institucion</design:name>
+              <design:position>7</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>255</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nombre_institucion</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nombre_institucion</design:label>
+            <design:formattingHints>
+              <design:displaySize>255</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>codigo_establecimiento</design:name>
+              <design:position>8</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>20</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>codigo_establecimiento</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>codigo_establecimiento</design:label>
+            <design:formattingHints>
+              <design:displaySize>20</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>usuario_id</design:name>
+              <design:position>9</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>usuario_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>usuario_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>documento_persona</design:name>
+              <design:position>10</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>documento_persona</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>documento_persona</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>nombre_persona</design:name>
+              <design:position>11</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>2147483647</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>nombre_persona</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>nombre_persona</design:label>
+            <design:formattingHints>
+              <design:displaySize>2147483647</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>con_servicio_internet</design:name>
+              <design:position>12</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>-7</design:nativeDataTypeCode>
+            <design:precision>1</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>con_servicio_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>con_servicio_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>1</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_servicio_internet_id</design:name>
+              <design:position>13</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_servicio_internet_id</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_servicio_internet_id</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>tipo_servicio_internet</design:name>
+              <design:position>14</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>150</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>tipo_servicio_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>tipo_servicio_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>150</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>con_computadoras</design:name>
+              <design:position>15</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>-7</design:nativeDataTypeCode>
+            <design:precision>1</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>con_computadoras</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>con_computadoras</design:label>
+            <design:formattingHints>
+              <design:displaySize>1</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>con_computadoras_con_internet</design:name>
+              <design:position>16</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>-7</design:nativeDataTypeCode>
+            <design:precision>1</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>con_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>con_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>1</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>con_laboratorio_informatica</design:name>
+              <design:position>17</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>-7</design:nativeDataTypeCode>
+            <design:precision>1</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>con_laboratorio_informatica</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>con_laboratorio_informatica</design:label>
+            <design:formattingHints>
+              <design:displaySize>1</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>laboratorio_cantidad_computadoras_funcionando</design:name>
+              <design:position>18</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>laboratorio_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>laboratorio_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>laboratorio_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>19</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>laboratorio_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>laboratorio_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>laboratorio_cantidad_computadoras_con_internet</design:name>
+              <design:position>20</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>laboratorio_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>laboratorio_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>aulas_cantidad_computadoras_funcionando</design:name>
+              <design:position>21</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>aulas_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>aulas_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>aulas_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>22</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>aulas_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>aulas_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>aulas_cantidad_computadoras_con_internet</design:name>
+              <design:position>23</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>aulas_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>aulas_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>sala_profesores_cantidad_computadoras_funcionando</design:name>
+              <design:position>24</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>sala_profesores_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>sala_profesores_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>sala_profesores_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>25</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>sala_profesores_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>sala_profesores_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>sala_profesores_cantidad_computadoras_con_internet</design:name>
+              <design:position>26</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>sala_profesores_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>sala_profesores_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>biblioteca_cantidad_computadoras_funcionando</design:name>
+              <design:position>27</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>biblioteca_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>biblioteca_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>biblioteca_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>28</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>biblioteca_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>biblioteca_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>biblioteca_cantidad_computadoras_con_internet</design:name>
+              <design:position>29</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>biblioteca_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>biblioteca_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>secretaria_cantidad_computadoras_funcionando</design:name>
+              <design:position>30</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>secretaria_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>secretaria_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>secretaria_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>31</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>secretaria_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>secretaria_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>secretaria_cantidad_computadoras_con_internet</design:name>
+              <design:position>32</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>secretaria_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>secretaria_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>direccion_cantidad_computadoras_funcionando</design:name>
+              <design:position>33</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>direccion_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>direccion_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>direccion_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>34</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>direccion_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>direccion_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>direccion_cantidad_computadoras_con_internet</design:name>
+              <design:position>35</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>direccion_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>direccion_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>otra_dependencia_cantidad_computadoras_funcionando</design:name>
+              <design:position>36</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>otra_dependencia_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>otra_dependencia_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>otra_dependencia_cantidad_computadoras_no_funcionando</design:name>
+              <design:position>37</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>otra_dependencia_cantidad_computadoras_no_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>otra_dependencia_cantidad_computadoras_no_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>otra_dependencia_cantidad_computadoras_con_internet</design:name>
+              <design:position>38</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>otra_dependencia_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>otra_dependencia_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>pedagogico_cantidad_computadoras_funcionando</design:name>
+              <design:position>39</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>pedagogico_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>pedagogico_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>pedagogico_cantidad_computadoras_con_internet</design:name>
+              <design:position>40</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>pedagogico_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>pedagogico_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>administrativo_cantidad_computadoras_funcionando</design:name>
+              <design:position>41</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>administrativo_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>administrativo_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>administrativo_cantidad_computadoras_con_internet</design:name>
+              <design:position>42</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>administrativo_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>administrativo_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>pedagogicoyadministrativo_cantidad_computadoras_funcionando</design:name>
+              <design:position>43</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>pedagogicoyadministrativo_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>pedagogicoyadministrativo_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>pedagogicoyadministrativo_cantidad_computadoras_con_internet</design:name>
+              <design:position>44</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>pedagogicoyadministrativo_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>pedagogicoyadministrativo_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>comunidad_cantidad_computadoras_funcionando</design:name>
+              <design:position>45</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>comunidad_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>comunidad_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>comunidad_cantidad_computadoras_con_internet</design:name>
+              <design:position>46</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>comunidad_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>comunidad_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>todo_uso_cantidad_computadoras_funcionando</design:name>
+              <design:position>47</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>todo_uso_cantidad_computadoras_funcionando</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>todo_uso_cantidad_computadoras_funcionando</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:identifier>
+              <design:name>todo_uso_cantidad_computadoras_con_internet</design:name>
+              <design:position>48</design:position>
+            </design:identifier>
+            <design:nativeDataTypeCode>4</design:nativeDataTypeCode>
+            <design:precision>10</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>todo_uso_cantidad_computadoras_con_internet</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>todo_uso_cantidad_computadoras_con_internet</design:label>
+            <design:formattingHints>
+              <design:displaySize>11</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+      <design:criteria/>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <cubes>
+        <tabular-cube name="Cubo de datos" id="23">
+            <property name="dimensions">
+                <tabular-dimension name="departamento_id" id="24">
+                    <property name="defaultHierarchy">NewTabularHierarchy</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy" id="25">
+                            <property name="levels">
+                                <tabular-level name="departamento_id" id="26">
+                                    <property name="dataType">integer</property>
+                                    <property name="columnName">departamento_id</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="departamento" id="27">
+                    <property name="defaultHierarchy">NewTabularHierarchy1</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy1" id="28">
+                            <property name="levels">
+                                <tabular-level name="departamento" id="29">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">departamento</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="tipo_servicio_internet_id" id="30">
+                    <property name="defaultHierarchy">NewTabularHierarchy2</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy2" id="31">
+                            <property name="levels">
+                                <tabular-level name="tipo_servicio_internet_id" id="32">
+                                    <property name="dataType">integer</property>
+                                    <property name="columnName">tipo_servicio_internet_id</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="tipo_servicio_internet" id="33">
+                    <property name="defaultHierarchy">NewTabularHierarchy3</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy3" id="34">
+                            <property name="levels">
+                                <tabular-level name="tipo_servicio_internet" id="35">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">tipo_servicio_internet</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+            </property>
+            <property name="measureGroups">
+                <tabular-measure-group name="Campo de resumen" id="36">
+                    <property name="measures">
+                        <tabular-measure name="con_servicio_internet" id="37">
+                            <property name="function">count</property>
+                            <property name="isCalculated">false</property>
+                            <expression name="measureExpression" type="javascript">dataSetRow["con_servicio_internet"]=true</expression>
+                            <property name="dataType">integer</property>
+                            <property name="isVisible">true</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+            </property>
+            <property name="dataSet">Conjunto de datos</property>
+        </tabular-cube>
+    </cubes>
+    <styles>
+        <style name="report" id="4">
+            <property name="fontFamily">sans-serif</property>
+            <property name="fontSize">10pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab" id="6">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="7">
+            <column id="8"/>
+            <row id="9">
+                <cell id="10">
+                    <label id="11">
+                        <property name="backgroundColor">#A68CB5</property>
+                        <property name="fontSize">14pt</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="textAlign">center</property>
+                        <text-property name="text">Encuesta de Infraestructura TIC 2017</text-property>
+                    </label>
+                    <label id="20">
+                        <property name="backgroundColor">#A68CB5</property>
+                        <property name="fontSize">12pt</property>
+                        <property name="fontWeight">bold</property>
+                        <property name="textAlign">center</property>
+                        <text-property name="text">Cantidad de instituciones por tipo de servicio de internet y departamento</text-property>
+                    </label>
+                </cell>
+            </row>
+        </grid>
+        <extended-item extensionName="Crosstab" extensionVersion="3.7.0" id="18">
+            <property name="cube">Cubo de datos</property>
+            <property name="measures">
+                <extended-item extensionName="MeasureView" id="49">
+                    <property name="measure">con_servicio_internet</property>
+                    <property name="detail">
+                        <extended-item extensionName="AggregationCell" id="50">
+                            <property name="aggregationOnRow">departamento/departamento</property>
+                            <property name="aggregationOnColumn">tipo_servicio_internet/tipo_servicio_internet</property>
+                            <property name="content">
+                                <data id="51">
+                                    <structure name="numberFormat">
+                                        <property name="category">Currency</property>
+                                        <property name="pattern">#,##0{RoundingMode=HALF_UP}</property>
+                                    </structure>
+                                    <property name="textAlign">right</property>
+                                    <property name="resultSetColumn">con_servicio_internet_departamento/departamento_tipo_servicio_internet/tipo_servicio_internet</property>
+                                </data>
+                            </property>
+                        </extended-item>
+                    </property>
+                    <property name="aggregations">
+                        <extended-item extensionName="AggregationCell" id="57">
+                            <property name="aggregationOnColumn">tipo_servicio_internet/tipo_servicio_internet</property>
+                            <property name="content">
+                                <data id="58">
+                                    <property name="fontWeight">bold</property>
+                                    <structure name="numberFormat">
+                                        <property name="category">Currency</property>
+                                        <property name="pattern">#,##0{RoundingMode=HALF_UP}</property>
+                                    </structure>
+                                    <property name="textAlign">right</property>
+                                    <property name="resultSetColumn">con_servicio_internet_tipo_servicio_internet/tipo_servicio_internet</property>
+                                </data>
+                            </property>
+                        </extended-item>
+                        <extended-item extensionName="AggregationCell" id="61">
+                            <property name="aggregationOnRow">departamento/departamento</property>
+                            <property name="content">
+                                <data id="62">
+                                    <property name="fontWeight">bold</property>
+                                    <structure name="numberFormat">
+                                        <property name="category">Currency</property>
+                                        <property name="pattern">#,##0{RoundingMode=HALF_UP}</property>
+                                    </structure>
+                                    <property name="textAlign">right</property>
+                                    <property name="resultSetColumn">con_servicio_internet_departamento/departamento</property>
+                                </data>
+                            </property>
+                        </extended-item>
+                        <extended-item extensionName="AggregationCell" id="63">
+                            <property name="content">
+                                <data id="64">
+                                    <property name="fontWeight">bold</property>
+                                    <structure name="numberFormat">
+                                        <property name="category">Currency</property>
+                                        <property name="pattern">#,##0{RoundingMode=HALF_UP}</property>
+                                    </structure>
+                                    <property name="textAlign">right</property>
+                                    <property name="resultSetColumn">con_servicio_internet</property>
+                                </data>
+                            </property>
+                        </extended-item>
+                    </property>
+                    <property name="header">
+                        <extended-item extensionName="CrosstabCell" id="52">
+                            <property name="content">
+                                <data name="tipo_servicio_internet" id="48">
+                                    <property name="fontWeight">bold</property>
+                                    <property name="resultSetColumn">tipo_servicio_internet</property>
+                                </data>
+                            </property>
+                        </extended-item>
+                        <extended-item extensionName="CrosstabCell" id="65">
+                            <property name="content">
+                                <label id="66">
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">con servicio de internet</text-property>
+                                </label>
+                            </property>
+                        </extended-item>
+                    </property>
+                </extended-item>
+            </property>
+            <property name="rows">
+                <extended-item extensionName="CrosstabView" id="38">
+                    <property name="grandTotal">
+                        <extended-item extensionName="CrosstabCell" id="56">
+                            <property name="content">
+                                <label id="59">
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Total general</text-property>
+                                </label>
+                            </property>
+                        </extended-item>
+                    </property>
+                    <property name="views">
+                        <extended-item extensionName="DimensionView" id="39">
+                            <property name="dimension">departamento</property>
+                            <property name="levels">
+                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles" id="40">
+                                    <property name="level">departamento/departamento</property>
+                                    <property name="member">
+                                        <extended-item extensionName="CrosstabCell" id="41">
+                                            <property name="content">
+                                                <data name="departamento" id="42">
+                                                    <property name="fontWeight">normal</property>
+                                                    <property name="textAlign">left</property>
+                                                    <property name="resultSetColumn">departamento</property>
+                                                </data>
+                                            </property>
+                                        </extended-item>
+                                    </property>
+                                </extended-item>
+                            </property>
+                        </extended-item>
+                    </property>
+                </extended-item>
+            </property>
+            <property name="columns">
+                <extended-item extensionName="CrosstabView" id="44">
+                    <property name="grandTotal">
+                        <extended-item extensionName="CrosstabCell" id="60">
+                            <property name="content">
+                                <label id="67">
+                                    <property name="fontWeight">bold</property>
+                                    <text-property name="text">Total general</text-property>
+                                </label>
+                            </property>
+                        </extended-item>
+                    </property>
+                    <property name="views">
+                        <extended-item extensionName="DimensionView" id="45">
+                            <property name="dimension">tipo_servicio_internet</property>
+                            <property name="levels">
+                                <extended-item extensionName="LevelView" name="NuevoVisualización de niveles1" id="46">
+                                    <property name="level">tipo_servicio_internet/tipo_servicio_internet</property>
+                                    <property name="member">
+                                        <extended-item extensionName="CrosstabCell" id="47"/>
+                                    </property>
+                                </extended-item>
+                            </property>
+                        </extended-item>
+                    </property>
+                </extended-item>
+            </property>
+            <property name="header">
+                <extended-item extensionName="CrosstabCell" id="54"/>
+                <extended-item extensionName="CrosstabCell" id="19">
+                    <property name="content">
+                        <label id="43">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">Departamento</text-property>
+                        </label>
+                    </property>
+                </extended-item>
+            </property>
+            <property name="refTemplateParameter">NewTemplateParameterDefinition</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">departamento</property>
+                    <expression name="expression" type="javascript">dimension["departamento"]["departamento"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">tipo_servicio_internet</property>
+                    <expression name="expression">dimension["tipo_servicio_internet"]["tipo_servicio_internet"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">con_servicio_internet_departamento/departamento_tipo_servicio_internet/tipo_servicio_internet</property>
+                    <expression name="expression">measure["con_servicio_internet"]</expression>
+                    <property name="dataType">integer</property>
+                    <simple-property-list name="aggregateOn">
+                        <value>departamento/departamento</value>
+                        <value>tipo_servicio_internet/tipo_servicio_internet</value>
+                    </simple-property-list>
+                    <property name="aggregateFunction">SUM</property>
+                </structure>
+                <structure>
+                    <property name="name">con_servicio_internet_tipo_servicio_internet/tipo_servicio_internet</property>
+                    <expression name="expression">measure["con_servicio_internet"]</expression>
+                    <property name="dataType">float</property>
+                    <simple-property-list name="aggregateOn">
+                        <value>tipo_servicio_internet/tipo_servicio_internet</value>
+                    </simple-property-list>
+                    <property name="aggregateFunction">sum</property>
+                </structure>
+                <structure>
+                    <property name="name">con_servicio_internet_departamento/departamento</property>
+                    <expression name="expression">measure["con_servicio_internet"]</expression>
+                    <property name="dataType">float</property>
+                    <simple-property-list name="aggregateOn">
+                        <value>departamento/departamento</value>
+                    </simple-property-list>
+                    <property name="aggregateFunction">sum</property>
+                </structure>
+                <structure>
+                    <property name="name">con_servicio_internet</property>
+                    <expression name="expression">measure["con_servicio_internet"]</expression>
+                    <property name="dataType">float</property>
+                    <property name="aggregateFunction">sum</property>
+                </structure>
+            </list-property>
+        </extended-item>
+        <label id="242">
+            <property name="fontWeight">bold</property>
+            <property name="fontStyle">italic</property>
+            <text-property name="text"></text-property>
+        </label>
+        <label id="225">
+            <property name="fontWeight">bold</property>
+            <property name="fontStyle">italic</property>
+            <text-property name="text">Observación: se considera los datos de aquellas instituciones que declararon contar con Servicio de Internet.</text-property>
+        </label>
+        <label id="68">
+            <property name="fontWeight">bold</property>
+            <property name="fontStyle">italic</property>
+            <text-property name="text"></text-property>
+        </label>
+        <label id="210">
+            <property name="fontWeight">bold</property>
+            <property name="textAlign">center</property>
+            <text-property name="text">*******Fin de Reporte******</text-property>
+        </label>
+    </body>
+</report>
