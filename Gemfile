@@ -47,7 +47,8 @@ gem 'authlogic', '3.4.2'
 gem "ransack", "1.2.3"
 gem 'thinreports-rails', '0.1.3'
 gem "magic_encoding", "0.0.2"
-gem "paperclip", "3.5.4"
+#gem "paperclip", "3.5.4"
+gem "paperclip"
 gem 'csv_builder', "2.1.1"
 gem 'scrypt', '1.2.1'
 gem 'protected_attributes'
