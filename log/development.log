@@ -1803,3 +1803,545 @@ Started GET "/assets/destacados/wolverine2.jpg" for 127.0.0.1 at 2018-11-15 21:2
 
 
 Started GET "/assets/destacados/wolverine3.jpg" for 127.0.0.1 at 2018-11-15 21:23:20 -0300
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-04 15:57:56 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (87.6ms)
+  Rendered layouts/_menu.html.erb (208.6ms)
+  Rendered layouts/_header.html.erb (211.1ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 831ms (Views: 675.3ms | ActiveRecord: 155.1ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2018-12-04 15:57:58 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (46.8ms)
+  Rendered layouts/_menu.html.erb (2.1ms)
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 499ms (Views: 498.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/fonts/64dae9bb.OpenSans-Regular-webfont.woff" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/fonts/92e68ff4.fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2018-12-04 15:57:59 -0300
+
+
+Started GET "/assets/fonts/ed35e252.DaxlinePro-Medium.otf" for 127.0.0.1 at 2018-12-04 15:58:00 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:00 -0300
+
+
+Started GET "/assets/thumbnails/wolverine2.jpg" for 127.0.0.1 at 2018-12-04 15:58:06 -0300
+
+
+Started GET "/assets/thumbnails/wolverine3.jpg" for 127.0.0.1 at 2018-12-04 15:58:06 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:06 -0300
+
+
+Started GET "/assets/destacados/wolverine2.jpg" for 127.0.0.1 at 2018-12-04 15:58:10 -0300
+
+
+Started GET "/login" for 127.0.0.1 at 2018-12-04 15:58:11 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (61.0ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (70.7ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (32.6ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (282.3ms)
+  Rendered layouts/_menu.html.erb (1.7ms)
+  Rendered layouts/_header.html.erb (2.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 821ms (Views: 646.3ms | ActiveRecord: 174.6ms)
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:12 -0300
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2018-12-04 15:58:24 -0300
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uTTZjuWWO2bE0Ce06+DtKsjit8qV8vF9YuA5TOuw1W0=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[35mPersona Load (79.3ms)[0m  SELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')
+  [1m[36mTipoDocumento Load (0.8ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mNacionalidad Load (0.4ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUsuario Load (40.1ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (21.5ms)[0m  [1mUPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936[0m  [["current_login_at", "2018-12-04 18:58:24.718158"], ["last_login_at", "2018-11-16 00:23:08.253534"], ["last_request_at", "2018-12-04 18:58:24.718834"], ["login_count", 148], ["perishable_token", "xEzdncOSXTgihpA0rfUj"], ["updated_at", "2018-12-04 18:58:24.721390"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-12-04 18:58:24.758933"], ["perishable_token", "wKUYHRCtcPo93zf2WEgL"], ["updated_at", "2018-12-04 18:58:24.759751"]]
+  [1m[35m (20.4ms)[0m  COMMIT
+  [1m[36mPerfil Load (3.8ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 359ms (ActiveRecord: 194.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2018-12-04 15:58:24 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (39.1ms)
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-12-04 18:58:25.427600"], ["perishable_token", "KKywMeY6ILspStG9Mhz"], ["updated_at", "2018-12-04 18:58:25.428385"]]
+  [1m[36m (28.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (66.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (4.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.6ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.5ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (1.6ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.5ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (171.9ms)
+  Rendered layouts/_header.html.erb (173.5ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 754ms (Views: 629.2ms | ActiveRecord: 124.9ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:25 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:26 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:26 -0300
+
+
+Started GET "/assets/destacados/wolverine3.jpg" for 127.0.0.1 at 2018-12-04 15:58:36 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:41 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 15:58:41 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:00:29 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:02:00 -0300
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:11:59 -0300
+
+
+Started GET "/index" for 127.0.0.1 at 2018-12-04 16:12:01 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (87.0ms)
+  [1m[36mUsuario Load (1.3ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-12-04 19:12:02.579646"], ["perishable_token", "tuFmNcsuHU1mbM5mcw"], ["updated_at", "2018-12-04 19:12:02.581246"]]
+  [1m[35m (40.2ms)[0m  COMMIT
+  [1m[36mVAcceso Load (8.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.4ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.6ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (215.0ms)
+  Rendered layouts/_header.html.erb (217.0ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 912ms (Views: 829.5ms | ActiveRecord: 82.3ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/thumbnails/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:12:02 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:12:03 -0300
+
+
+Started GET "/assets/destacados/wolverine1.jpg" for 127.0.0.1 at 2018-12-04 16:12:03 -0300
+
+
+Started GET "/controladores/index" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+Processing by ControladoresController#index as HTML
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-12-04 19:12:09.218414"], ["perishable_token", "BrnDYfdY73xKgOkhkj"], ["updated_at", "2018-12-04 19:12:09.220194"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (4.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'index' and sistema_id = 1)
+  Rendered helpers/_modal_window.html.erb (0.8ms)
+  Rendered controladores/index.html.erb within layouts/application (30.9ms)
+  [1m[36mVAcceso Load (3.4ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.3ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.9ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)[0m
+  [1m[35mPerfil Load (0.3ms)[0m  SELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1  [["id", 43185]]
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mPerfil Load (0.6ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mRol Load (0.6ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered layouts/_menu.html.erb (36.3ms)
+  Rendered layouts/_header.html.erb (37.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 411ms (Views: 369.6ms | ActiveRecord: 29.2ms)
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/modulos/controladores.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started GET "/assets/ajax-loader0.gif" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+
+
+Started POST "/controladores/lista" for 127.0.0.1 at 2018-12-04 16:12:09 -0300
+Processing by ControladoresController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_controladores_id"=>"", "form_buscar_controladores_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-12-04 19:12:09.820354"], ["perishable_token", "1hupA6WKeP1Kyihaz7x"], ["updated_at", "2018-12-04 19:12:09.821210"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (4.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "controladores"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  [1m[36mControlador Load (29.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"   ORDER BY descripcion LIMIT 15 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  Rendered controladores/_link_to_acciones.html.erb (1.9ms)
+  Rendered helpers/_modal_window.html.erb (0.5ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (4.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.3ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.5ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.6ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.3ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (3.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.6ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.9ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.7ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.6ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.7ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.5ms)
+  Rendered controladores/_lista.html.erb (130.4ms)
+  Rendered controladores/_footer.html.erb (21.4ms)
+  Rendered controladores/lista.js.erb (158.8ms)
+Completed 200 OK in 219ms (Views: 135.0ms | ActiveRecord: 67.4ms)
+
+
+Started GET "/controladores/editar?id=42&amp;window_id=modal-window-editar-controlador&_=1543950729697" for 127.0.0.1 at 2018-12-04 16:12:13 -0300
+Processing by ControladoresController#editar as JS
+  Parameters: {"id"=>"42", "amp"=>nil, "window_id"=>"modal-window-editar-controlador", "_"=>"1543950729697"}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-12-04 19:12:13.045377"], ["perishable_token", "WwcnhYm1oLelQ4Wayjp"], ["updated_at", "2018-12-04 19:12:13.046143"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'editar' and sistema_id = 1)[0m
+  [1m[35mControlador Load (0.4ms)[0m  SELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1  [["id", 42]]
+  Rendered controladores/_editar.html.erb (16.8ms)
+  Rendered controladores/editar.js.erb (19.6ms)
+Completed 200 OK in 33ms (Views: 23.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/modulos/controladores.js?body=1&_=1543950729698" for 127.0.0.1 at 2018-12-04 16:12:13 -0300
+
+
+Started POST "/controladores/actualizar" for 127.0.0.1 at 2018-12-04 16:12:15 -0300
+Processing by ControladoresController#actualizar as JS
+  Parameters: {"utf8"=>"✓", "controlador"=>{"id"=>"42", "descripcion"=>"areas_academicas"}, "window_id"=>"modal-window-editar-controlador"}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.6ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2018-12-04 19:12:15.956097"], ["perishable_token", "bZSOMVpYqpJL9RtUufF"], ["updated_at", "2018-12-04 19:12:15.957342"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'actualizar' and sistema_id = 1)[0m
+  [1m[35mControlador Load (0.3ms)[0m  SELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1  [["id", 42]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT "controladores".* FROM "controladores"  WHERE (descripcion = 'areas_academicas' and id <> 42)[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+WARNING: Can't mass-assign protected attributes for Controlador: id
+	app/controllers/controladores_controller.rb:163:in `actualizar'
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  Rendered controladores/actualizar.js.erb (0.8ms)
+Completed 200 OK in 24ms (Views: 4.9ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/ajax-loader0.gif" for 127.0.0.1 at 2018-12-04 16:12:18 -0300
+
+
+Started POST "/controladores/lista" for 127.0.0.1 at 2018-12-04 16:12:19 -0300
+Processing by ControladoresController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_controladores_id"=>"42", "form_buscar_controladores_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.5ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-12-04 19:12:19.023933"], ["perishable_token", "8UAaxL2IckwKHZm9YLcQ"], ["updated_at", "2018-12-04 19:12:19.024920"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "controladores"  WHERE (id = '42')[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "controladores"
+  [1m[36mControlador Load (0.6ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE (id = '42')  ORDER BY descripcion LIMIT 15 OFFSET 0[0m
+  Rendered controladores/_link_to_acciones.html.erb (0.7ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.3ms)
+  Rendered controladores/_lista.html.erb (6.1ms)
+  Rendered controladores/_footer.html.erb (0.1ms)
+  Rendered controladores/lista.js.erb (8.7ms)
+Completed 200 OK in 22ms (Views: 10.6ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/assets/ajax-loader0.gif" for 127.0.0.1 at 2018-12-04 16:12:20 -0300
+
+
+Started POST "/controladores/lista" for 127.0.0.1 at 2018-12-04 16:12:20 -0300
+Processing by ControladoresController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_controladores_id"=>"", "form_buscar_controladores_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2018-12-04 19:12:20.895226"], ["perishable_token", "NiSnKWGo7IbseFkJ8hCl"], ["updated_at", "2018-12-04 19:12:20.896090"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'controladores' and accion = 'lista' and sistema_id = 1)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "controladores"[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  [1m[36mControlador Load (0.6ms)[0m  [1mSELECT  "controladores".* FROM "controladores"   ORDER BY descripcion LIMIT 15 OFFSET 0[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT COUNT(*) FROM "controladores"
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.1ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.3ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.4ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.1ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.6ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.4ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.1ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (1.2ms)
+  Rendered controladores/_link_to_acciones.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered controladores/_link_to_editar_controlador.html.erb (2.0ms)
+  Rendered controladores/_lista.html.erb (71.9ms)
+  Rendered controladores/_footer.html.erb (1.6ms)
+  Rendered controladores/lista.js.erb (78.3ms)
+Completed 200 OK in 93ms (Views: 80.6ms | ActiveRecord: 4.6ms)
