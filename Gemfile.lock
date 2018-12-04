@@ -80,7 +80,7 @@ GEM
     mime-types (1.25.1)
     mini_portile2 (2.3.0)
     minitest (5.5.1)
-    multi_json (1.10.1)
+    multi_json (1.13.1)
     multi_xml (0.6.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -104,7 +104,7 @@ GEM
       ttfunk (~> 1.0.2)
     protected_attributes (1.0.8)
       activemodel (>= 4.0.1, < 5.0)
-    rack (1.5.2)
+    rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.1.0)
@@ -159,7 +159,7 @@ GEM
     spreadsheet (1.1.2)
       ruby-ole (>= 1.0)
     spring (1.2.0)
-    sprockets (2.12.3)
+    sprockets (2.12.5)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -229,7 +229,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spreadsheet (= 1.1.2)
   spring
-  sprockets-rails
+  sprockets (= 2.12.5)
   therubyracer
   thin (= 1.5.1)
   thinreports-rails (= 0.1.3)
