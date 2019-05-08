@@ -7648,3 +7648,1062 @@ Completed 200 OK in 366ms (Views: 361.9ms | ActiveRecord: 3.3ms)
 
 
 Started GET "/assets/kawasaki_logo_2.jpg" for 127.0.0.1 at 2018-12-04 17:08:38 -0300
+
+
+Started GET "/login" for 127.0.0.1 at 2018-12-04 17:09:54 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[35mTipoDocumento Load (0.8ms)[0m  SELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion
+  [1m[36mNacionalidad Load (1.6ms)[0m  [1mSELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion[0m
+  [1m[35mRol Load (0.7ms)[0m  SELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion
+  Rendered usuarios_sessions/new.html.erb within layouts/application (23.1ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 313ms (Views: 310.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/kawasaki_logo_2.jpg" for 127.0.0.1 at 2018-12-04 17:09:55 -0300
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /Users/marcosriveros/reposit/marvel/magneto/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-23 20:43:06 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (66.8ms)
+  Rendered layouts/_menu.html.erb (148.0ms)
+  Rendered layouts/_header.html.erb (153.9ms)
+  Rendered layouts/_footer.html.erb (0.8ms)
+Completed 200 OK in 772ms (Views: 725.7ms | ActiveRecord: 45.7ms)
+
+
+Started GET "/assets/kawasaki_logo_2.jpg" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:07 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_2.jpg" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_4.jpg" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_1.jpg" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_3.jpg" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/fonts/64dae9bb.OpenSans-Regular-webfont.woff" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/fonts/deae260a.glyphicons-halflings-regular.woff" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2019-01-23 20:43:08 -0300
+
+
+Started GET "/assets/fonts/ed35e252.DaxlinePro-Medium.otf" for 127.0.0.1 at 2019-01-23 20:43:09 -0300
+
+
+Started GET "/login" for 127.0.0.1 at 2019-01-23 20:43:15 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (49.1ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (48.0ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (54.0ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (235.4ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 539ms (Views: 381.4ms | ActiveRecord: 156.9ms)
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:16 -0300
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2019-01-23 20:43:18 -0300
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DKn7NPx6XxuOET8ckrBSL2j/BzPd19xTztVF39oWDTw=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[35mPersona Load (57.7ms)[0m  SELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')
+  [1m[36mTipoDocumento Load (0.4ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mNacionalidad Load (0.3ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUsuario Load (44.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (3.0ms)[0m  [1mUPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936[0m  [["current_login_at", "2019-01-23 23:43:18.645680"], ["last_login_at", "2018-12-04 18:58:24.718158"], ["last_request_at", "2019-01-23 23:43:18.646187"], ["login_count", 149], ["perishable_token", "si3sI1HR8ukeT8nr"], ["updated_at", "2019-01-23 23:43:18.648186"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-01-23 23:43:18.707026"], ["perishable_token", "4lzk3DFjEm7I6hHFP9Lz"], ["updated_at", "2019-01-23 23:43:18.708072"]]
+  [1m[35m (39.7ms)[0m  COMMIT
+  [1m[36mPerfil Load (42.9ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 383ms (ActiveRecord: 197.6ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2019-01-23 20:43:18 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (23.1ms)
+  [1m[35mUsuario Load (0.6ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2019-01-23 23:43:19.177486"], ["perishable_token", "1TdxrtgBlLP2l4bPOefY"], ["updated_at", "2019-01-23 23:43:19.178378"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (58.6ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (3.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.4ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (3.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.5ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (1.4ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.4ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.5ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (105.8ms)
+  Rendered layouts/_header.html.erb (106.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 448ms (Views: 366.2ms | ActiveRecord: 81.8ms)
+
+
+Started GET "/roles/index" for 127.0.0.1 at 2019-01-23 20:43:37 -0300
+Processing by RolesController#index as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-01-23 23:43:37.749512"], ["perishable_token", "js5tSXqOsqkZH4a8D3w"], ["updated_at", "2019-01-23 23:43:37.750177"]]
+  [1m[35m (40.7ms)[0m  COMMIT
+  [1m[36mVAcceso Load (3.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'index' and sistema_id = 1)[0m
+  Rendered helpers/_modal_window.html.erb (0.5ms)
+  Rendered roles/index.html.erb within layouts/application (24.2ms)
+  [1m[35mVAcceso Load (2.2ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.5ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.5ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.7ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (0.7ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.3ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (28.6ms)
+  Rendered layouts/_header.html.erb (29.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 374ms (Views: 304.7ms | ActiveRecord: 63.5ms)
+
+
+Started GET "/assets/modulos/roles.js?body=1" for 127.0.0.1 at 2019-01-23 20:43:38 -0300
+
+
+Started GET "/assets/ajax-loader0.gif" for 127.0.0.1 at 2019-01-23 20:43:38 -0300
+
+
+Started POST "/roles/lista" for 127.0.0.1 at 2019-01-23 20:43:38 -0300
+Processing by RolesController#lista as JS
+  Parameters: {"utf8"=>"✓", "form_buscar_roles_id"=>"", "form_buscar_roles_descripcion"=>"", "form_buscar_sistema_descripcion"=>""}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.5ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-01-23 23:43:38.328179"], ["perishable_token", "ACm52PvOwKrFg7hxOfVC"], ["updated_at", "2019-01-23 23:43:38.329049"]]
+  [1m[35m (40.3ms)[0m  COMMIT
+  [1m[36mVAcceso Load (2.6ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'lista' and sistema_id = 1)[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "v_roles"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT COUNT(*) FROM "v_roles"[0m
+  [1m[35mVRoles Load (27.3ms)[0m  SELECT  "v_roles".* FROM "v_roles"   ORDER BY descripcion LIMIT 15 OFFSET 0
+  Rendered roles/_link_to_accesos.html.erb (0.9ms)
+  Rendered helpers/_modal_window.html.erb (0.7ms)
+  Rendered roles/_link_to_editar_rol.html.erb (2.9ms)
+  Rendered roles/_link_to_accesos.html.erb (0.2ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/_link_to_editar_rol.html.erb (1.3ms)
+  Rendered roles/_link_to_accesos.html.erb (0.3ms)
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/_link_to_editar_rol.html.erb (1.6ms)
+  Rendered roles/_lista.html.erb (49.1ms)
+  Rendered roles/_footer.html.erb (0.6ms)
+  Rendered roles/lista.js.erb (55.3ms)
+Completed 200 OK in 161ms (Views: 31.7ms | ActiveRecord: 114.9ms)
+
+
+Started GET "/assets/fonts/92e68ff4.fontawesome-webfont.woff?v=4.2.0" for 127.0.0.1 at 2019-01-23 20:43:38 -0300
+
+
+Started GET "/roles/editar?id=1&amp;window_id=modal-window-editar-rol&_=1548287018214" for 127.0.0.1 at 2019-01-23 20:43:41 -0300
+Processing by RolesController#editar as JS
+  Parameters: {"id"=>"1", "amp"=>nil, "window_id"=>"modal-window-editar-rol", "_"=>"1548287018214"}
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-01-23 23:43:41.732706"], ["perishable_token", "8W2uc6rz8l8V80vrHMx2"], ["updated_at", "2019-01-23 23:43:41.733368"]]
+  [1m[35m (41.0ms)[0m  COMMIT
+  [1m[36mVAcceso Load (4.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'editar' and sistema_id = 1)[0m
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mSistema Load (0.5ms)[0m  [1mSELECT "sistemas".* FROM "sistemas"   ORDER BY descripcion[0m
+  Rendered roles/_editar.html.erb (29.7ms)
+  Rendered roles/editar.js.erb (32.3ms)
+Completed 200 OK in 90ms (Views: 33.7ms | ActiveRecord: 48.8ms)
+
+
+Started GET "/assets/modulos/roles.js?body=1&_=1548287018215" for 127.0.0.1 at 2019-01-23 20:43:41 -0300
+
+
+Started GET "/roles/accesos?rol_id=1&_=1548287018216" for 127.0.0.1 at 2019-01-23 20:43:44 -0300
+Processing by RolesController#accesos as JS
+  Parameters: {"rol_id"=>"1", "_"=>"1548287018216"}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.7ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2019-01-23 23:43:44.732030"], ["perishable_token", "vhavz1vZCu9bAYJu5s4T"], ["updated_at", "2019-01-23 23:43:44.732921"]]
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.1ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'accesos' and sistema_id = 1)
+  [1m[36mAcceso Load (4.8ms)[0m  [1mSELECT "accesos".* FROM "accesos" INNER JOIN "acciones" ON "acciones"."id" = "accesos"."accion_id" WHERE (rol_id = '1')  ORDER BY acciones.controlador_id, acciones.descripcion[0m
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 18]]
+  [1m[36mControlador Load (42.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 17]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 16]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.6ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 15]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.8ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 567]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 569]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 568]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 36]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 45]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 46]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 38]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 32]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 41]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 39]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 66]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 35]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 34]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 43]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 33]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 42]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 30]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 31]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 44]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 40]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 37]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 54]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 52]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.6ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 868]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 869]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 580]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 400]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 443]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 577]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 376]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 440]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 375]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 55]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 63]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 187]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 278]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 88]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 51]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 531]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 579]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 398]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 401]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 442]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 742]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 743]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 744]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 745]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 746]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 747]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 53]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 444]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 50]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 532]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 530]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 578]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 441]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 62]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 47]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 48]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 274]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 275]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 576]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 849]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 439]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 64]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 67]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 65]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 68]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 374]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 91]]
+  [1m[36mControlador Load (0.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 97]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 92]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 94]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 96]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 95]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 100]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 102]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 104]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 106]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 108]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 110]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 101]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 103]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 105]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 107]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 109]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 111]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 89]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 90]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 99]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 98]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 93]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 9]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 290]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 291]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 292]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 468]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 114]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 373]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 257]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 10]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 117]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 128]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 130]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 132]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 119]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 118]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 120]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 121]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 122]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 124]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 123]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 115]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 133]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 137]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 135]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 116]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 134]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 138]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 136]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 126]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 125]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 127]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 131]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 129]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 11]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 141]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 146]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 142]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 144]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 145]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 139]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 140]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 143]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 12]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 147]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 148]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 386]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 13]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 183]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 152]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 273]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 150]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 151]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 240]]
+  [1m[36mControlador Load (0.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 463]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 237]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 243]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 247]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 251]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 427]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 428]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 429]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 239]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 462]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 241]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 245]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 249]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 253]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 238]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 244]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 248]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 252]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 235]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 236]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 255]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 254]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 461]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 256]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 242]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 246]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 250]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 18]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 271]]
+  [1m[36mControlador Load (0.6ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 264]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 265]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 266]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 268]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 267]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 270]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 272]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 269]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 261]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 311]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 308]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 310]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 312]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 309]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 307]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.9ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 262]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 263]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 384]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 385]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 20]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 332]]
+  [1m[36mControlador Load (0.5ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 948]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 279]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mAccion Load (0.7ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 280]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 21]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 319]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 317]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 318]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 24]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 321]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 25]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 322]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 25]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 323]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 25]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 343]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 341]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 342]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 28]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 371]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 29]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 369]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 29]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 370]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 29]]
+  [1m[35mAccion Load (0.7ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 382]]
+  [1m[36mControlador Load (0.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 377]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 378]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 379]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 30]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 387]]
+  [1m[36mControlador Load (0.5ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 32]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 389]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 32]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 388]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 32]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 411]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 526]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 406]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 521]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 522]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 529]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 407]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 408]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 520]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 410]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 528]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 412]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 524]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 527]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 409]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 523]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 403]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 404]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 525]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 405]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 35]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 413]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 414]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 36]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 415]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 417]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 416]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 37]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 418]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 420]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 419]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 38]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 422]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 640]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 633]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 421]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 639]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 632]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 518]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 565]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 566]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 630]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 631]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 519]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 646]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 647]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 425]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 466]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 467]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 426]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 642]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 643]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 648]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 649]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 635]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 636]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 637]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 638]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 39]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 435]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 432]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 434]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 433]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 430]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 431]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 483]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 438]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.6ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 437]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 40]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 475]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 471]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 474]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 473]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 472]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 469]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 470]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 42]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 481]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 478]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 482]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 480]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 479]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 476]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 477]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 43]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 629]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 626]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 590]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 591]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 622]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 625]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 599]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 79]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 717]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 727]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 713]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 724]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 719]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 716]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 726]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 715]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 721]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 722]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 723]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 714]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 725]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 720]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 711]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 712]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 718]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 90]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 730]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 740]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 732]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 905]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 731]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 733]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 734]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 739]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 736]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 737]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 738]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 741]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 906]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 735]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 904]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 728]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 729]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 867]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 903]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 91]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 768]]
+  [1m[36mControlador Load (0.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 772]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 769]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 767]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 779]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 770]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 771]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.5ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 763]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 764]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 93]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 959]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 1013]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 960]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 1006]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 937]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 1005]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 96]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 955]]
+  [1m[36mControlador Load (0.3ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 99]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 918]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 99]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 954]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 99]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 917]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 99]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 970]]
+  [1m[36mControlador Load (0.2ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 968]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.2ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 972]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 969]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 967]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.4ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 971]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 965]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  [1m[35mAccion Load (0.3ms)[0m  SELECT  "acciones".* FROM "acciones"  WHERE "acciones"."id" = $1 LIMIT 1  [["id", 966]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 101]]
+  Rendered helpers/_modal_window.html.erb (0.1ms)
+  Rendered roles/_accesos.html.erb (877.2ms)
+  Rendered roles/accesos.js.erb (894.5ms)
+Completed 200 OK in 915ms (Views: 711.7ms | ActiveRecord: 192.2ms)
+
+
+Started GET "/roles/agregar_acceso?rol_id=1&amp;window_id=modal-window-agregar-acceso&_=1548287018217" for 127.0.0.1 at 2019-01-23 20:44:05 -0300
+Processing by RolesController#agregar_acceso as JS
+  Parameters: {"rol_id"=>"1", "amp"=>nil, "window_id"=>"modal-window-agregar-acceso", "_"=>"1548287018217"}
+ApplicationController::require_usuario
+  [1m[35mUsuario Load (0.5ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2019-01-23 23:44:05.657054"], ["perishable_token", "BYsdkJwUp3TJykw46CgU"], ["updated_at", "2019-01-23 23:44:05.657810"]]
+  [1m[36m (40.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and controlador = 'roles' and accion = 'agregar_acceso' and sistema_id = 1)
+  [1m[36mAcceso Load (1.3ms)[0m  [1mSELECT "accesos".* FROM "accesos"  WHERE (rol_id = '1')[0m
+  [1m[35mControlador Load (1.0ms)[0m  SELECT "controladores".* FROM "controladores"   ORDER BY descripcion
+  [1m[36mAccion Load (1.0ms)[0m  [1mSELECT  "acciones".* FROM "acciones"  WHERE (id not in (12,13,14,15,16,17,18,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,50,51,52,53,54,62,55,63,64,65,66,68,67,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,150,151,152,183,187,257,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,279,280,290,291,292,307,308,309,310,311,312,317,318,319,321,322,323,341,342,343,369,370,371,373,374,375,376,378,379,382,384,385,147,148,386,387,388,389,401,400,413,414,419,420,416,417,403,404,405,415,418,421,422,425,426,235,236,242,439,440,441,442,443,444,466,467,468,482,481,480,479,478,477,476,475,474,473,472,471,470,469,518,519,532,531,377,520,525,565,566,569,568,567,576,577,578,579,580,430,431,590,591,599,622,625,626,630,631,632,633,635,636,637,638,639,640,642,643,646,648,649,647,398,530,432,433,434,435,483,438,437,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,406,409,410,411,407,408,412,521,529,528,527,526,524,523,522,243,245,244,428,427,256,255,463,462,461,429,254,253,252,251,250,249,248,247,246,241,240,239,237,238,764,763,869,868,742,743,744,745,746,747,849,728,730,736,735,734,733,732,731,729,737,738,739,740,741,906,905,904,903,867,917,918,937,629,948,767,768,769,770,771,772,779,960,965,966,967,968,969,970,971,972,954,955,1005,1006,959,1013,332,278))  ORDER BY id LIMIT 7 OFFSET 0[0m
+  [1m[35m (3.4ms)[0m  SELECT COUNT(*) FROM "acciones"  WHERE (id not in (12,13,14,15,16,17,18,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,50,51,52,53,54,62,55,63,64,65,66,68,67,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,150,151,152,183,187,257,261,262,263,264,265,266,267,268,269,270,271,272,273,274,275,279,280,290,291,292,307,308,309,310,311,312,317,318,319,321,322,323,341,342,343,369,370,371,373,374,375,376,378,379,382,384,385,147,148,386,387,388,389,401,400,413,414,419,420,416,417,403,404,405,415,418,421,422,425,426,235,236,242,439,440,441,442,443,444,466,467,468,482,481,480,479,478,477,476,475,474,473,472,471,470,469,518,519,532,531,377,520,525,565,566,569,568,567,576,577,578,579,580,430,431,590,591,599,622,625,626,630,631,632,633,635,636,637,638,639,640,642,643,646,648,649,647,398,530,432,433,434,435,483,438,437,711,712,713,714,715,716,717,718,719,720,721,722,723,724,725,726,727,406,409,410,411,407,408,412,521,529,528,527,526,524,523,522,243,245,244,428,427,256,255,463,462,461,429,254,253,252,251,250,249,248,247,246,241,240,239,237,238,764,763,869,868,742,743,744,745,746,747,849,728,730,736,735,734,733,732,731,729,737,738,739,740,741,906,905,904,903,867,917,918,937,629,948,767,768,769,770,771,772,779,960,965,966,967,968,969,970,971,972,954,955,1005,1006,959,1013,332,278))
+  [1m[36mControlador Load (0.4ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "controladores".* FROM "controladores"  WHERE "controladores"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered roles/_agregar_acceso.html.erb (43.2ms)
+  Rendered roles/agregar_acceso.js.erb (46.3ms)
+Completed 200 OK in 117ms (Views: 43.8ms | ActiveRecord: 52.7ms)
+
+
+Started GET "/assets/modulos/roles.js?body=1&_=1548287018218" for 127.0.0.1 at 2019-01-23 20:44:05 -0300
