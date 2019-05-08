@@ -12,7 +12,7 @@ default: &default
 development:
   <<: *default
 
-  database: kmtc
+  database: magneto
   username: postgres
   password: postgres
   host:  localhost
