@@ -10423,3 +10423,336 @@ Started GET "/assets/thumbnails/kawasaki_1.jpg" for 127.0.0.1 at 2019-04-10 12:4
 
 Started GET "/assets/thumbnails/kawasaki_1.jpg" for 127.0.0.1 at 2019-04-10 12:50:11 -0400
 >>>>>>> 7670c58a6f69508501bb45bfc38177c79f871f5b
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /home/mriveros/Documents/reposit/magneto/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /home/mriveros/Documents/reposit/magneto/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/login" for 127.0.0.1 at 2019-05-08 12:12:00 -0400
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (83.1ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (76.9ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (20.1ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (380.2ms)
+  Rendered layouts/_menu.html.erb (3.0ms)
+  Rendered layouts/_header.html.erb (37.8ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1211ms (Views: 799.5ms | ActiveRecord: 269.7ms)
+
+
+Started GET "/assets/kawasaki_logo_2.jpg" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2019-05-08 12:12:02 -0400
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2019-05-08 12:12:04 -0400
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ypo2dJhT86O797pRTPwDBIdfI4g0do9ivDF45GiY6/0=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[35mPersona Load (323.3ms)[0m  SELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')
+  [1m[36mTipoDocumento Load (0.3ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mNacionalidad Load (0.2ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUsuario Load (35.9ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936[0m  [["current_login_at", "2019-05-08 16:12:05.011996"], ["last_login_at", "2019-04-10 14:41:31.152457"], ["last_request_at", "2019-05-08 16:12:05.012324"], ["login_count", 150], ["perishable_token", "6PmdjU1s5mkxUKk4R"], ["updated_at", "2019-05-08 16:12:05.013514"]]
+  [1m[35m (22.7ms)[0m  COMMIT
+  [1m[36mUsuario Load (0.3ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-05-08 16:12:05.043026"], ["perishable_token", "1AaUZiXZ4FMlo9TkELPV"], ["updated_at", "2019-05-08 16:12:05.043636"]]
+  [1m[35m (8.4ms)[0m  COMMIT
+  [1m[36mPerfil Load (44.0ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 619ms (ActiveRecord: 442.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (59.2ms)
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2019-05-08 16:12:05.431116"], ["perishable_token", "TQisJl4swNHcqhw8Uw"], ["updated_at", "2019-05-08 16:12:05.431603"]]
+  [1m[36m (21.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (148.5ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (5.8ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (5.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (6.2ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (5.9ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (6.3ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (4.7ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.3ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (9.5ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.4ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (271.5ms)
+  Rendered layouts/_header.html.erb (272.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 499ms (Views: 279.8ms | ActiveRecord: 218.7ms)
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+
+
+Started GET "/assets/thumbnails/kawasaki_1.jpg" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+
+
+Started GET "/assets/thumbnails/kawasaki_2.jpg" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+
+
+Started GET "/assets/thumbnails/kawasaki_3.jpg" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+
+
+Started GET "/assets/thumbnails/kawasaki_4.jpg" for 127.0.0.1 at 2019-05-08 12:12:05 -0400
+
+
+Started GET "/logout" for 127.0.0.1 at 2019-05-08 12:12:08 -0400
+Processing by UsuariosSessionsController#destroy as HTML
+ApplicationController::require_usuario
+  [1m[36mUsuario Load (0.7ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2019-05-08 16:12:08.474484"], ["perishable_token", "dkpbOG7t5YJRZBYyfDY8"], ["updated_at", "2019-05-08 16:12:08.475967"]]
+  [1m[35m (60.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/login
+Completed 302 Found in 73ms (ActiveRecord: 62.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2019-05-08 12:12:08 -0400
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (0.6ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (1.0ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (0.3ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (21.6ms)
+  Rendered layouts/_menu.html.erb (0.7ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 167ms (Views: 164.6ms | ActiveRecord: 1.8ms)
+DEPRECATION WARNING: set the 'will_paginate.previous_label' key in your i18n locale instead of editing pagination_options (called from /home/mriveros/Documents/reposit/magneto/config/initializers/will_paginate.rb:1:in `<top (required)>')
+DEPRECATION WARNING: set the 'will_paginate.next_label' key in your i18n locale instead of editing pagination_options (called from /home/mriveros/Documents/reposit/magneto/config/initializers/will_paginate.rb:2:in `<top (required)>')
+
+
+Started GET "/login" for 127.0.0.1 at 2020-02-14 14:51:02 -0300
+Processing by UsuariosSessionsController#new as HTML
+  [1m[36mTipoDocumento Load (0.8ms)[0m  [1mSELECT "tipos_documentos".* FROM "tipos_documentos"   ORDER BY descripcion[0m
+  [1m[35mNacionalidad Load (1.0ms)[0m  SELECT "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null)  ORDER BY descripcion
+  [1m[36mRol Load (0.6ms)[0m  [1mSELECT "roles".* FROM "roles"  WHERE (id in (1,3,6))  ORDER BY descripcion[0m
+  Rendered usuarios_sessions/new.html.erb within layouts/application (51.7ms)
+  Rendered layouts/_menu.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 366ms (Views: 285.4ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/pagination.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/introjs.min.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/rue.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/rue_plugins.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/style.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/datepicker.css?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.iframe-transport.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.remotipart.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/firsttime.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/index_view.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/intro.min.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/rue_plugins.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/master_detail.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/bootstrap-datepicker.es.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/modulos/usuarios.js?body=1" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/kawasaki_logo_2.jpg" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started GET "/assets/degradado_gobierno.png" for 127.0.0.1 at 2020-02-14 14:51:03 -0300
+
+
+Started POST "/usuarios_sessions/create" for 127.0.0.1 at 2020-02-14 14:51:10 -0300
+Processing by UsuariosSessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cXIHQqBuxOY7kP/2vLQMrkWb2GgP1o8EAFCF0XJ3etU=", "persona"=>{"tipo_documento_id"=>"1", "nacionalidad_id"=>"1"}, "persona_documento"=>"4063149", "usuario_session"=>{"password"=>"[FILTERED]"}, "perfil"=>{"rol_id"=>""}}
+  [1m[35mPersona Load (2.0ms)[0m  SELECT "personas".* FROM "personas"  WHERE (documento_persona = '4063149' and tipo_documento_id = '1' and nacionalidad_id = '1')
+  [1m[36mTipoDocumento Load (0.6ms)[0m  [1mSELECT  "tipos_documentos".* FROM "tipos_documentos"  WHERE "tipos_documentos"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mNacionalidad Load (0.3ms)[0m  SELECT  "nacionalidades".* FROM "nacionalidades"  WHERE (descripcion is not null) AND "nacionalidades"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUsuario Load (0.8ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE LOWER("usuarios"."login") = LOWER('4063149-ced-par')  ORDER BY "usuarios"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "current_login_at" = $1, "last_login_at" = $2, "last_request_at" = $3, "login_count" = $4, "perishable_token" = $5, "updated_at" = $6 WHERE "usuarios"."id" = 28936[0m  [["current_login_at", "2020-02-14 17:51:10.874943"], ["last_login_at", "2019-05-08 16:12:05.011996"], ["last_request_at", "2020-02-14 17:51:10.875439"], ["login_count", 151], ["perishable_token", "RsdwC1nj28dsd11kqC8"], ["updated_at", "2020-02-14 17:51:10.878098"]]
+  [1m[35m (13.9ms)[0m  COMMIT
+  [1m[36mUsuario Load (0.4ms)[0m  [1mSELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936[0m  [["last_request_at", "2020-02-14 17:51:10.899694"], ["perishable_token", "eiJ5DUGweVKegJtj5cm"], ["updated_at", "2020-02-14 17:51:10.900154"]]
+  [1m[35m (10.1ms)[0m  COMMIT
+  [1m[36mPerfil Load (0.3ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+Redirected to http://localhost:3000/index
+Completed 302 Found in 104ms (ActiveRecord: 33.4ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-02-14 14:51:10 -0300
+Processing by PrincipalController#index as HTML
+  Rendered principal/index.html.erb within layouts/application (21.7ms)
+  [1m[35mUsuario Load (0.4ms)[0m  SELECT  "usuarios".* FROM "usuarios"  WHERE "usuarios"."id" = 28936 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "usuarios" SET "last_request_at" = $1, "perishable_token" = $2, "updated_at" = $3 WHERE "usuarios"."id" = 28936  [["last_request_at", "2020-02-14 17:51:11.125438"], ["perishable_token", "zUEc5p9YrzSIEW4KSHsx"], ["updated_at", "2020-02-14 17:51:11.125915"]]
+  [1m[36m (9.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mVAcceso Load (3.8ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'controladores.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.7ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'roles.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.0ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'personas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.0ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'usuarios.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'tipos_caracteristicas.index' and sistema_id = 1)
+  [1m[36mVAcceso Load (2.1ms)[0m  [1mSELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'disciplinas.index' and sistema_id = 1)[0m
+  [1m[35mVAcceso Load (2.3ms)[0m  SELECT "v_accesos".* FROM "v_accesos"  WHERE (usuario_id = 28936 and acceso = 'informaciones.index' and sistema_id = 1)
+  [1m[36mPerfil Load (0.4ms)[0m  [1mSELECT  "perfiles".* FROM "perfiles"  WHERE "perfiles"."id" = $1 LIMIT 1[0m  [["id", 43185]]
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mPerfil Load (0.4ms)[0m  [1mSELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "perfiles".* FROM "perfiles"  WHERE (usuario_id = 28936 and id <> 43185 and exists (select * from roles where perfiles.rol_id = roles.id and roles.sistema_id = 1 ))
+  [1m[36mRol Load (0.2ms)[0m  [1mSELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mRol Load (0.2ms)[0m  SELECT  "roles".* FROM "roles"  WHERE "roles"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered layouts/_menu.html.erb (43.1ms)
+  Rendered layouts/_header.html.erb (43.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 225ms (Views: 195.1ms | ActiveRecord: 29.6ms)
+
+
+Started GET "/assets/thumbnails/kawasaki_1.jpg" for 127.0.0.1 at 2020-02-14 14:51:11 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_2.jpg" for 127.0.0.1 at 2020-02-14 14:51:11 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_3.jpg" for 127.0.0.1 at 2020-02-14 14:51:11 -0300
+
+
+Started GET "/assets/thumbnails/kawasaki_4.jpg" for 127.0.0.1 at 2020-02-14 14:51:11 -0300
